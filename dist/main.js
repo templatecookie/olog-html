@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("console.log('project compiled successfully');\n\n//# sourceURL=webpack:///./src/js/main.js?");
+eval("$(document).ready(function () {\n  $(function () {\n    $('.selectpicker').selectpicker();\n  });\n});\n\n//# sourceURL=webpack:///./src/js/main.js?");
 
 /***/ }),
 
