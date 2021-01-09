@@ -3,6 +3,12 @@
     padding: 0;
     outline: 0;
 }
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	color: #444;
+}
 
 img {
     border: 0;
@@ -17,24 +23,107 @@ html {
 body {
     background-color: $bgColor;
     font-family: $font;
-    // user-select: none;
 }
 
-a {
-    display: inline-block;
-    color: $lightBlack;
-    @include animate(.3s);
+a,
+.button {
+	-webkit-transition: all 0.3s ease-out 0s;
+	-moz-transition: all 0.3s ease-out 0s;
+	-ms-transition: all 0.3s ease-out 0s;
+	-o-transition: all 0.3s ease-out 0s;
+	transition: all 0.3s ease-out 0s;
+}
+
+a:focus,
+.button:focus {
+	text-decoration: none;
+	outline: none;
+}
+
+a:focus,
+a:hover,
+.portfolio-cat a:hover,
+.footer -menu li a:hover {
+	text-decoration: none;
+}
+
+a,
+button {
+	color: #1696e7;
+	outline: medium none;
+}
+
+button:focus,
+input:focus,
+input:focus,
+textarea,
+textarea:focus {
+	outline: 0
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: normal;
+	color: #2c303e;
+	margin-top: 0px;
+	font-style: normal;
+	font-weight: 700;
+}
+
+h1 {
+	font-size: 40px;
+	font-weight: 500;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
 }
 
 li {
-    list-style-type: none;
+	list-style: none
 }
 
 p {
-    color: $black;
-    line-height: 24px;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 28px;
+	color: #7f7f7f;
+	margin-bottom: 15px;
 }
 
-.color {
-    color: $color;
+
+*::-moz-selection {
+	background: #d6b161;
+	color: #fff;
+	text-shadow: none;
+}
+
+::-moz-selection {
+	background: #444;
+	color: #fff;
+	text-shadow: none;
+}
+
+::selection {
+	background: #444;
+	color: #fff;
+	text-shadow: none;
+}
+
+*::-moz-placeholder {
+	color: #999999;
+	font-size: 14px;
+	opacity: 1;
+}
+
+*::placeholder {
+	color: #999999;
+	font-size: 14px;
+	opacity: 1;
 }

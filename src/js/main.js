@@ -1,1 +1,5 @@
-console.log('project compiled successfully');
+$( document ).ready(function() {
+    $(function(){
+        $('.selectpicker').selectpicker();
+    });
+});

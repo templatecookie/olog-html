@@ -19,6 +19,7 @@
 
 @import "pages/home";
 @import "pages/contact";
+@import 'pages/styleguide';
 
 @import 'themes/theme';
 
@@ -29,5 +30,3 @@
 // Breadcrumb
 @import "components/breadcrumb";
 
-// Footer
-@import "layout/footer";
