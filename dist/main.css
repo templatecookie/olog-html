@@ -9118,15 +9118,17 @@ footer {
         color: #989BA7;
         font-size: 14px;
         font-weight: 400; }
-  footer .copyright-text p {
-    color: #989BA7;
-    font-size: 14px; }
-    footer .copyright-text p a {
-      color: #ffffff; }
-  footer .copyright-links a {
-    color: #ffffff;
-    font-weight: 600;
-    margin-left: 26px; }
+  footer .copyright {
+    padding-top: 28px; }
+    footer .copyright-text p {
+      color: #989BA7;
+      font-size: 14px; }
+      footer .copyright-text p a {
+        color: #ffffff; }
+    footer .copyright-links a {
+      color: #ffffff;
+      font-weight: 600;
+      margin-left: 26px; }
 
 .breadcrumb-area {
   padding: 65px 0px;
