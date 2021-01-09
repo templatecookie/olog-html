@@ -29,15 +29,26 @@
         </div>
         <h2 class="py-5">Language/currency Switcher</h2>
         <hr>
-        <div>
-            <select class="selectpicker" data-width="fit">
-                <option >English</option>
-              <option >Español</option>
-            </select>
+        <div class=" d-flex align-items-center justify-content-between">
+            <div>            <select>
+                <option data-display="English">Bangla</option>
+                <option value="1">Arabic</option>
+                <option value="2">Aramaic</option>
+                <option value="4">Assamese</option>
+            </select></div>
+            <div>
+                <select>
+                    <option data-display="Currency">USD</option>
+                    <option value="1">BDT</option>
+                    <option value="2">SNG</option>
+                    <option value="4">ERU</option>
+                </select>
+            </div>
         </div>
     </div>
     <script src="src/js/jquery.min.js"></script>
     <script src="src/js/bootstrap.min.js"></script>
+    <script src="src/scss/vendors/selector/js/jquery.nice-select.min.js"></script>
     <script src="dist/main.js"></script>
 </body>
 
