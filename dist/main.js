@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("$(document).ready(function () {\n  $(function () {\n    $('.selectpicker').selectpicker();\n  });\n});\n\n//# sourceURL=webpack:///./src/js/main.js?");
+eval("$(document).ready(function () {\n  $('select').niceSelect();\n});\n\n//# sourceURL=webpack:///./src/js/main.js?");
 
 /***/ }),
 

@@ -1,5 +1,3 @@
 $( document ).ready(function() {
-    $(function(){
-        $('.selectpicker').selectpicker();
-    });
+    $('select').niceSelect();
 });
