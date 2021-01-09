@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,10 +8,48 @@
     <title>Olog - StyleGuide</title>
     <link rel="stylesheet" href="dist/main.css">
 </head>
+
 <body>
-    
+    <div class="container">
+        <h2 class="py-5">Font Family</h2>
+        <hr>
+        <ul>
+            <h1>h1. heading</h1>
+            <h2>h2. heading</h2>
+            <h3>h3. heading</h3>
+            <h4>h4. heading</h4>
+            <h5>h5. heading</h5>
+            <h6>h6. heading</h6>
+        </ul>
+        <h2 class="pt-5">Button</h2>
+        <hr>
+        <div class="bg-black py-5">
+            <a class="btn bg-primary" href="#">Continue</a> <code>.btn .bg-primary</code>
+            <a class="btn bg-secondary border text-capitalize" href="#">Subscribe</a> <code>.btn .bg-secondary .text-capitalize</code>
+        </div>
+        <h2 class="py-5">Language/currency Switcher</h2>
+        <hr>
+        <div class=" d-flex align-items-center justify-content-between">
+            <div>            <select>
+                <option data-display="English">Bangla</option>
+                <option value="1">Arabic</option>
+                <option value="2">Aramaic</option>
+                <option value="4">Assamese</option>
+            </select></div>
+            <div>
+                <select>
+                    <option data-display="Currency">USD</option>
+                    <option value="1">BDT</option>
+                    <option value="2">SNG</option>
+                    <option value="4">ERU</option>
+                </select>
+            </div>
+        </div>
+    </div>
     <script src="src/js/jquery.min.js"></script>
     <script src="src/js/bootstrap.min.js"></script>
+    <script src="src/scss/vendors/selector/js/jquery.nice-select.min.js"></script>
     <script src="dist/main.js"></script>
 </body>
+
 </html>

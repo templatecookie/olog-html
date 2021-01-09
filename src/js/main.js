@@ -1,1 +1,3 @@
-console.log('project compiled successfully');
+$( document ).ready(function() {
+    $('select').niceSelect();
+});

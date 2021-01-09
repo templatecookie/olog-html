@@ -5,6 +5,7 @@
 // vendors
 @import "vendors/fontawesome/css/fontawesome.min.css";
 @import "vendors/bootstrap/scss/bootstrap.scss";
+@import "vendors/selector/css/nice-select.css";
 
 @import "base/typography";
 @import "base/reset";
@@ -19,8 +20,10 @@
 
 @import "pages/home";
 @import "pages/contact";
+@import 'pages/styleguide';
 
 @import 'themes/theme';
 
-// StyleGuide
-@import "styleguide/styleguide";
+// Components
+
+
