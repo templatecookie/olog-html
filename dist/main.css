@@ -9050,6 +9050,104 @@ p {
 footer {
   padding: 70px 0px 30px 0px;
   background-color: #1A2224; }
+  footer .newsletter-area {
+    margin-bottom: 70px; }
+    footer .newsletter-area-text h4 {
+      margin-bottom: 12px;
+      font-size: 40px;
+      font-weight: 600;
+      line-height: 48px; }
+    footer .newsletter-area-text p {
+      font-size: 16px;
+      color: #989BA7;
+      font-weight: 400;
+      line-height: 24px; }
+    footer .newsletter-area-button .form {
+      position: relative; }
+      footer .newsletter-area-button .form ::-webkit-input-placeholder {
+        color: #989BA7;
+        font-size: 18px; }
+      footer .newsletter-area-button .form ::-moz-placeholder {
+        color: #989BA7;
+        font-size: 18px; }
+      footer .newsletter-area-button .form :-ms-input-placeholder {
+        color: #989BA7;
+        font-size: 18px; }
+      footer .newsletter-area-button .form ::-ms-input-placeholder {
+        color: #989BA7;
+        font-size: 18px; }
+      footer .newsletter-area-button .form ::placeholder {
+        color: #989BA7;
+        font-size: 18px; }
+      footer .newsletter-area-button .form input {
+        color: #ffffff;
+        padding: 30px 0px 30px 30px;
+        border-radius: 40px;
+        border: 1px solid #989BA7;
+        background-color: #1A2224; }
+        footer .newsletter-area-button .form input:focus {
+          -webkit-box-shadow: none;
+                  box-shadow: none; }
+      footer .newsletter-area-button .form button {
+        padding: 12px 24px;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        border: none; }
+        footer .newsletter-area-button .form button:focus {
+          -webkit-box-shadow: none;
+                  box-shadow: none; }
+  footer .main-footer {
+    padding: 100px 0px;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff; }
+    footer .main-footer-info p {
+      margin-top: 24px;
+      font-size: 16px;
+      line-height: 24px;
+      color: #989BA7; }
+    footer .main-footer-quicklinks h6 {
+      color: #ffffff;
+      font-size: 18px;
+      font-weight: 600; }
+    footer .main-footer-quicklinks .quicklink {
+      margin-top: 24px; }
+      footer .main-footer-quicklinks .quicklink li a {
+        margin-bottom: 10px;
+        display: inline-block;
+        color: #989BA7;
+        font-size: 14px;
+        font-weight: 400; }
+  footer .copyright-text p {
+    color: #989BA7;
+    font-size: 14px; }
+    footer .copyright-text p a {
+      color: #ffffff; }
+  footer .copyright-links a {
+    color: #ffffff;
+    font-weight: 600;
+    margin-left: 26px; }
+
+.breadcrumb-area {
+  padding: 65px 0px;
+  background-color: #FAFAFA; }
+  .breadcrumb-area .breadcrumb {
+    padding-left: 0;
+    margin-bottom: 10px;
+    background-color: transparent; }
+    .breadcrumb-area .breadcrumb .active {
+      color: #335AFF; }
+    .breadcrumb-area .breadcrumb-item {
+      font-size: 14px;
+      font-weight: 400;
+      color: #1A2224; }
+      .breadcrumb-area .breadcrumb-item a {
+        color: #1A2224;
+        text-decoration: none; }
+  .breadcrumb-area h5 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 0; }
 
 .btn {
   padding: 18px 45px;
@@ -9073,25 +9171,4 @@ footer {
 
 .border {
   border-radius: 50px; }
-
-.breadcrumb-area {
-  padding: 65px 0px;
-  background-color: #FAFAFA; }
-  .breadcrumb-area .breadcrumb {
-    padding-left: 0;
-    margin-bottom: 10px;
-    background-color: transparent; }
-    .breadcrumb-area .breadcrumb .active {
-      color: #335AFF; }
-    .breadcrumb-area .breadcrumb-item {
-      font-size: 14px;
-      font-weight: 400;
-      color: #1A2224; }
-      .breadcrumb-area .breadcrumb-item a {
-        color: #1A2224;
-        text-decoration: none; }
-  .breadcrumb-area h5 {
-    font-size: 32px;
-    font-weight: 600;
-    margin-bottom: 0; }
 

@@ -1,4 +1,117 @@
-footer{
+footer {
     padding: 70px 0px 30px 0px;
-    background-color: #1A2224;
+    background-color: $black;
+
+    .newsletter-area {
+        margin-bottom: 70px;
+
+        &-text {
+            h4 {
+                margin-bottom: 12px;
+                font-size: 40px;
+                font-weight: 600;
+                line-height: 48px;
+            }
+
+            p {
+                font-size: 16px;
+                color: $lightBlack;
+                font-weight: 400;
+                line-height: 24px;
+            }
+        }
+
+        &-button {
+            .form {
+                position: relative;
+
+                ::placeholder {
+                    color: $lightBlack;
+                    font-size: 18px;
+                }
+
+                input {
+                    color: #ffffff;
+                    padding: 30px 0px 30px 30px;
+                    border-radius: 40px;
+                    border: 1px solid $lightBlack;
+                    background-color: $black;
+
+                    &:focus {
+                        box-shadow: none;
+                    }
+                }
+
+                button {
+                    padding: 12px 24px;
+                    position: absolute;
+                    top: 10px;
+                    right: 10px;
+                    border: none;
+
+                    &:focus {
+                        box-shadow: none;
+                    }
+                }
+            }
+        }
+    }
+
+    .main-footer {
+        padding: 100px 0px;
+        border-top: 1px solid #ffffff;
+        border-bottom: 1px solid #ffffff;
+
+        &-info {
+            p {
+                margin-top: 24px;
+                font-size: 16px;
+                line-height: 24px;
+                color: $lightBlack;
+            }
+        }
+
+        &-quicklinks {
+            h6 {
+                color: #ffffff;
+                font-size: 18px;
+                font-weight: 600;
+            }
+
+            .quicklink {
+                margin-top: 24px;
+
+                li {
+                    a {
+                        margin-bottom: 10px;
+                        display: inline-block;
+                        color: $lightBlack;
+                        font-size: 14px;
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+    }
+
+    .copyright {
+        &-text {
+            p {
+                color: $lightBlack;
+                font-size: 14px;
+
+                a {
+                    color: #ffffff;
+                }
+            }
+        }
+
+        &-links {
+            a {
+                color: #ffffff;
+                font-weight: 600;
+                margin-left: 26px;
+            }
+        }
+    }
 }
