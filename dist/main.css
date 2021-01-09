@@ -1,9 +1,220 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap);
+/*!
+ * Font Awesome Free 5.12.1 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ */@-webkit-keyframes fa-spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}@keyframes fa-spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}@font-face{font-family:"Font Awesome 5 Brands";font-style:normal;font-weight:400;font-display:auto;src:url(fonts/fa-brands-400.57dcda6f368ea90179f75cbdae96c263.eot);src:url(fonts/fa-brands-400.57dcda6f368ea90179f75cbdae96c263.eot?#iefix) format("embedded-opentype"),url(fonts/fa-brands-400.067595ad77ecc0db9c81c8905a7eef32.woff2) format("woff2"),url(fonts/fa-brands-400.b564da88bbf0c4aa446fa19653713cd1.woff) format("woff"),url(fonts/fa-brands-400.9ec698d1a597bff5df337094b71ddaaf.ttf) format("truetype"),url(fonts/fa-brands-400.39dc51162f292b85ec8f701292e6a5f4.svg#fontawesome) format("svg")}@font-face{font-family:"Font Awesome 5 Free";font-style:normal;font-weight:400;font-display:auto;src:url(fonts/fa-regular-400.3351f435b3c9037fd88aeb04dc1e43bc.eot);src:url(fonts/fa-regular-400.3351f435b3c9037fd88aeb04dc1e43bc.eot?#iefix) format("embedded-opentype"),url(fonts/fa-regular-400.4165c2688309cbfb1b877caf8f75afb5.woff2) format("woff2"),url(fonts/fa-regular-400.73cf49a2232c06c920b7a34e36bfb58c.woff) format("woff"),url(fonts/fa-regular-400.a0e3ac82940c1998c5977fd4bc1f5ef6.ttf) format("truetype"),url(fonts/fa-regular-400.dc2561f4401f40bd65bf2080b2ec5fde.svg#fontawesome) format("svg")}@font-face{font-family:"Font Awesome 5 Free";font-style:normal;font-weight:900;font-display:auto;src:url(fonts/fa-solid-900.89e02bae13c9131c7468b1e729339ac1.eot);src:url(fonts/fa-solid-900.89e02bae13c9131c7468b1e729339ac1.eot?#iefix) format("embedded-opentype"),url(fonts/fa-solid-900.55eb2a60e8181f0e68b558c991973bf0.woff2) format("woff2"),url(fonts/fa-solid-900.cdfec5cf5e9840889790bcf2c4042583.woff) format("woff"),url(fonts/fa-solid-900.75f38a159982b6bd1704891332d95fa7.ttf) format("truetype"),url(fonts/fa-solid-900.7ed0b09414b0bf68b15ec4cfcb8a427d.svg#fontawesome) format("svg")}
+/*!
+ * Bootstrap v4.5.3 (https://getbootstrap.com/)
+ * Copyright 2011-2020 The Bootstrap Authors
+ * Copyright 2011-2020 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */
+:root {
+  --blue: #1f7ae2;
+  --indigo: #6610f2;
+  --purple: #4E5BDE;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #FD6179;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: white;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #1f7ae2;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(51, 51, 51, 0); }
+
+ figcaption, main, nav, section {
+  display: block; }
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: white; }
+
+[tabindex="-1"]:focus:not(:focus-visible) {
+  outline: 0 !important; }
+
+
+strong {
+  font-weight: bolder; }
+
+caption {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  color: #6c757d;
+  text-align: left;
+  caption-side: bottom; }
+
+button {
+  border-radius: 0; }
+
+button:focus {
+  outline: 1px dotted;
+  outline: 5px auto -webkit-focus-ring-color; }
+
+input,
+button {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit; }
+
+button,
+input {
+  overflow: visible; }
+
+button {
+  text-transform: none; }
+
+[role="button"] {
+  cursor: pointer; }
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button; }
+
+button:not(:disabled),
+[type="button"]:not(:disabled),
+[type="reset"]:not(:disabled),
+[type="submit"]:not(:disabled) {
+  cursor: pointer; }
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  padding: 0;
+  border-style: none; }
+
+input[type="radio"],
+input[type="checkbox"] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0; }
+
+legend {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
+  margin-bottom: .5rem;
+  font-size: 1.5rem;
+  line-height: inherit;
+  color: inherit;
+  white-space: normal; }
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+[type="search"] {
+  outline-offset: -2px;
+  -webkit-appearance: none; }
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+::-webkit-file-upload-button {
+  font: inherit;
+  -webkit-appearance: button; }
+
+[hidden] {
+  display: none !important; }
+
+@-webkit-keyframes progress-bar-stripes {
+  from {
+    background-position: 1rem 0; }
+  to {
+    background-position: 0 0; } }
+
+@keyframes progress-bar-stripes {
+  from {
+    background-position: 1rem 0; }
+  to {
+    background-position: 0 0; } }
+
+@-webkit-keyframes spinner-border {
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
+@keyframes spinner-border {
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
+@-webkit-keyframes spinner-grow {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0); }
+  50% {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none; } }
+
+@keyframes spinner-grow {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0); }
+  50% {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none; } }
+
+@media print {
+  *,
+  *::before,
+  *::after {
+    text-shadow: none !important;
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important; }
+  @page {
+    size: a3; }
+  body {
+    min-width: 992px !important; } }
 
 * {
   margin: 0;
   padding: 0;
   outline: 0; }
+
+html {
+  scroll-behavior: smooth; }
 
 body {
   background-color: #F6F8FA;
