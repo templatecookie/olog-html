@@ -9047,6 +9047,10 @@ p {
   font-size: 14px;
   opacity: 1; }
 
+footer {
+  padding: 70px 0px 30px 0px;
+  background-color: #1A2224; }
+
 .btn {
   padding: 18px 45px;
   font-size: 16px;
@@ -9069,4 +9073,25 @@ p {
 
 .border {
   border-radius: 50px; }
+
+.breadcrumb-area {
+  padding: 65px 0px;
+  background-color: #FAFAFA; }
+  .breadcrumb-area .breadcrumb {
+    padding-left: 0;
+    margin-bottom: 10px;
+    background-color: transparent; }
+    .breadcrumb-area .breadcrumb .active {
+      color: #335AFF; }
+    .breadcrumb-area .breadcrumb-item {
+      font-size: 14px;
+      font-weight: 400;
+      color: #1A2224; }
+      .breadcrumb-area .breadcrumb-item a {
+        color: #1A2224;
+        text-decoration: none; }
+  .breadcrumb-area h5 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 0; }
 
