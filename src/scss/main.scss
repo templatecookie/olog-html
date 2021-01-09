@@ -1,0 +1,23 @@
+// abstracts
+@import "abstracts/functions";
+@import "abstracts/variables";
+
+// vendors
+@import "vendors/fontawesome/css/fontawesome.min.css";
+@import "vendors/bootstrap/scss/bootstrap.scss";
+
+@import "base/typography";
+@import "base/reset";
+
+@import "layout/footer";
+@import "layout/header";
+@import "layout/nav";
+@import "layout/breadcrumb";
+
+@import "components/buttons";
+@import "components/form";
+
+@import "pages/home";
+@import "pages/contact";
+
+@import 'themes/theme';
