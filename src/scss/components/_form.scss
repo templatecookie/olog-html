@@ -1,0 +1,51 @@
+.input-group {
+    position: relative;
+    width: 50%;
+  }
+  
+  label {
+    position: absolute;
+    display: inline-block;
+    background: transparent;
+    left: 8px;
+    top: 50%;
+    padding: 0 4px;
+    font-size: 24px;
+    transform: translatey(-50%);
+    transition: all .3s ease;
+    color: gray;
+    text-transform: uppercase;
+  }
+  
+  .form-input {
+    display: block;
+    padding: 16px;
+    font-size: 24px;
+    outline: none;
+    border: 2px solid gray;
+    border-radius: 4px;
+    transition: all .3s ease;
+    color: gray;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .form-input:focus, 
+  .form-input:active {
+    border: 2px solid #4885ed	;
+  }
+  
+  .form-input:focus ~ label,
+  .form-input:active ~ label {
+    color: #4885ed;
+    background: white;
+    top: 1px;
+    font-size: 16px;
+  }
+  
+  .has-value {
+    color: gray;
+    background: white;
+    top: 1px;
+    font-size: 16px;
+  }  
