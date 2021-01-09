@@ -1,0 +1,53 @@
+.input-group {
+    position: relative;
+    width: 50%;
+  }
+  
+  .input-label {
+    position: absolute;
+    display: inline-block;
+    background: transparent;
+    left: 8px;
+    top: 50%;
+    padding: 0 4px;
+    font-size: 14px;
+    line-height: 1.3;
+    transform: translatey(-50%);
+    transition: all .3s ease;
+    color: $lightBlack;
+    text-transform: capitalize;
+  }
+  
+  .form-input {
+    display: block;
+    padding: 16px;
+    font-size: 14px;
+    outline: none;
+    border: 1px solid $lightBlack;
+    border-radius: 4px;
+    transition: all .3s ease;
+    color: $lightBlack;
+    width: 100%;
+    height: 59px;
+    box-sizing: border-box;
+  }
+  
+  .form-input:focus, 
+  .form-input:active {
+    border: 1px solid $lightBlack	;
+  }
+  
+  .form-input:focus ~ label,
+  .form-input:active ~ label {
+    color: $lightBlack;
+    background: white;
+    top: 1px;
+    font-size: 14px;
+  }
+  
+  .has-value {
+    color: $lightBlack;
+    background: white;
+    top: 1px;
+    font-size: 14px;
+  }  

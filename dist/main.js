@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("$(document).ready(function () {\n  $('select').niceSelect();\n});\n\n//# sourceURL=webpack:///./src/js/main.js?");
+eval("$(document).ready(function () {\n  //Form input\n  var textInput = document.querySelector('input');\n  console.log(textInput);\n  console.log(textInput.nextElementSibling);\n  textInput.addEventListener('focusout', function () {\n    console.log(textInput.value);\n\n    if (textInput.value === '') {\n      textInput.nextElementSibling.classList.remove('has-value');\n    } else {\n      textInput.nextElementSibling.classList.add('has-value');\n    }\n  });\n  $('select').niceSelect();\n});\n\n//# sourceURL=webpack:///./src/js/main.js?");
 
 /***/ }),
 
