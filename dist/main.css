@@ -9283,21 +9283,21 @@ footer {
       footer .newsletter-area-text p {
         font-size: 14px;
         text-align: left; }
-  footer .newsletter-area-text h4 {
+  footer footer .newsletter-area-text h4 {
     font-size: 28px;
     line-height: 36px; }
-  footer .newsletter-area-button .form input {
+  footer footer .newsletter-area-button .form input {
     padding: 25px 0px 25px 25px; }
-  footer .newsletter-area-button .form button {
+  footer footer .newsletter-area-button .form button {
     top: 5px;
     right: 5px; }
-  footer .main-footer {
+  footer footer .main-footer {
     padding: 30px 0px; }
-  footer .main-footer-info p {
+  footer footer .main-footer-info p {
     margin-top: 20px;
     margin-bottom: 25px;
     font-size: 14px; }
-  footer .copyright-text p {
+  footer footer .copyright-text p {
     margin-bottom: 0; } }
 
 @media only screen and (min-width: 420px) and (max-width: 574px) {
@@ -9330,6 +9330,47 @@ footer {
   footer .copyright-text p {
     margin-bottom: 0;
     line-height: 30px; }
+  footer .copyright-links a {
+    margin-left: 10px; }
+  footer .copyright {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; } }
+
+@media (max-width: 420px) {
+  footer {
+    padding: 30px 0px 10px 0px; }
+    footer .newsletter-area {
+      margin-bottom: 25px; }
+      footer .newsletter-area-text {
+        text-align: center;
+        margin-bottom: 15px; }
+        footer .newsletter-area-text p {
+          font-size: 14px;
+          text-align: left; }
+  footer .newsletter-area-text h4 {
+    font-size: 19px;
+    line-height: 27px; }
+  footer .main-footer-quicklinks .quicklink {
+    margin-top: 15px; }
+  footer .newsletter-area-button .form input {
+    padding: 25px 0px 25px 25px; }
+  footer .newsletter-area-button .form button {
+    top: 5px;
+    right: 5px; }
+  footer .main-footer {
+    padding: 30px 0px;
+    padding-bottom: 0; }
+  footer .main-footer-info p {
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-size: 14px; }
+  .main-footer-quicklinks {
+    margin-bottom: 30px; }
+  footer .copyright-text p {
+    margin-bottom: 0;
+    line-height: 35px;
+    font-size: 13px; }
   footer .copyright-links a {
     margin-left: 10px; }
   footer .copyright {
