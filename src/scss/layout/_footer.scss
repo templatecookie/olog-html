@@ -24,12 +24,6 @@ footer {
         &-button {
             .form {
                 position: relative;
-
-                ::placeholder {
-                    color: $lightBlack;
-                    font-size: 18px;
-                }
-
                 input {
                     color: #ffffff;
                     padding: 30px 0px 30px 30px;

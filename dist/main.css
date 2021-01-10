@@ -9189,21 +9189,6 @@ footer {
       line-height: 24px; }
     footer .newsletter-area-button .form {
       position: relative; }
-      footer .newsletter-area-button .form ::-webkit-input-placeholder {
-        color: #989BA7;
-        font-size: 18px; }
-      footer .newsletter-area-button .form ::-moz-placeholder {
-        color: #989BA7;
-        font-size: 18px; }
-      footer .newsletter-area-button .form :-ms-input-placeholder {
-        color: #989BA7;
-        font-size: 18px; }
-      footer .newsletter-area-button .form ::-ms-input-placeholder {
-        color: #989BA7;
-        font-size: 18px; }
-      footer .newsletter-area-button .form ::placeholder {
-        color: #989BA7;
-        font-size: 18px; }
       footer .newsletter-area-button .form input {
         color: #ffffff;
         padding: 30px 0px 30px 30px;
