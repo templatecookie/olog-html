@@ -1,0 +1,47 @@
+.card-price{
+    padding: 26px;
+    border: 2px solid $gray;
+    border-radius: 4px;
+    h6{
+        color: $black;
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+    &-list{
+        margin-bottom: 12px;
+        .item{
+            p{
+                font-size: 16px;
+                color: $lightBlack;
+                margin-bottom: 0;
+            }
+        }
+        .price{
+            p{
+                font-size: 16px;
+                color: $black;
+                margin-bottom: 0;
+            }
+        }
+    }
+    &-subtotal{
+        padding-top: 12px;
+        border-top: 1px solid $gray;
+        .total-text{
+            p{
+                font-size: 18px;
+                color: $black;
+                margin-bottom: 0;
+            }
+        }
+        .total-price{
+            p{
+                font-size: 18px;
+                color: $black;
+                font-weight: 500;
+                margin-bottom: 0;
+            }
+        }
+    }
+}

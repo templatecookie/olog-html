@@ -9276,6 +9276,28 @@ footer {
     font-weight: 600;
     margin-bottom: 0; }
 
+@media only screen and (min-width: 420px) and (max-width: 574px) {
+  .breadcrumb-area {
+    padding: 25px 0px; }
+    .breadcrumb-area .breadcrumb {
+      margin-bottom: 0;
+      padding-right: 0; }
+      .breadcrumb-area .breadcrumb-item {
+        margin-bottom: 10px; } }
+
+@media (max-width: 420px) {
+  .breadcrumb-area {
+    padding: 25px 0px; }
+    .breadcrumb-area .breadcrumb {
+      margin-bottom: 0;
+      padding-right: 0; }
+      .breadcrumb-area .breadcrumb-item {
+        margin-bottom: 10px;
+        padding-left: 0;
+        padding-right: 10px; }
+    .breadcrumb-area h5 {
+      font-size: 26px; } }
+
 .features-wrapper {
   position: relative; }
   .features-wrapper .slider-arrows {
@@ -9380,6 +9402,38 @@ footer {
     margin: 0 10px; }
   .features-wrapper .slick-list {
     margin: 0 -10px; } }
+
+.card-price {
+  padding: 26px;
+  border: 2px solid #EFEFEF;
+  border-radius: 4px; }
+  .card-price h6 {
+    color: #1A2224;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px; }
+  .card-price-list {
+    margin-bottom: 12px; }
+    .card-price-list .item p {
+      font-size: 16px;
+      color: #989BA7;
+      margin-bottom: 0; }
+    .card-price-list .price p {
+      font-size: 16px;
+      color: #1A2224;
+      margin-bottom: 0; }
+  .card-price-subtotal {
+    padding-top: 12px;
+    border-top: 1px solid #EFEFEF; }
+    .card-price-subtotal .total-text p {
+      font-size: 18px;
+      color: #1A2224;
+      margin-bottom: 0; }
+    .card-price-subtotal .total-price p {
+      font-size: 18px;
+      color: #1A2224;
+      font-weight: 500;
+      margin-bottom: 0; }
 
 .btn {
   padding: 18px 45px;
