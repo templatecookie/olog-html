@@ -10391,4 +10391,101 @@ footer {
 /* Small devices 575 - 767 */
 /* Small devices 420 - 574 */
 /* extra Small devices 420 */
+.account-sign {
+  padding: 100px;
+  background-color: #EFEFEF; }
+  .account-sign-in {
+    padding: 45px;
+    background-color: white;
+    border-radius: 5px; }
+    .account-sign-in h5 {
+      color: #1A2224;
+      font-size: 32px;
+      font-weight: 600;
+      margin-bottom: 30px; }
+    .account-sign-in form .input-group {
+      width: 100%;
+      margin-bottom: 24px; }
+      .account-sign-in form .input-group input {
+        border: 1px solid #989BA7;
+        border-radius: 4px;
+        padding: 20px; }
+    .account-sign-in form .password-info {
+      margin-top: 12px;
+      margin-bottom: 30px; }
+      .account-sign-in form .password-info-left {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center; }
+        .account-sign-in form .password-info-left input {
+          width: 15px;
+          height: 15px;
+          border-color: #989BA7;
+          border-radius: 2px;
+          margin-right: 6px; }
+        .account-sign-in form .password-info-left label {
+          cursor: pointer;
+          font-size: 14px;
+          color: #989BA7; }
+      .account-sign-in form .password-info-right a {
+        color: #1A2224;
+        font-size: 14px; }
+    .account-sign-in form button {
+      width: 100%;
+      padding: 15px 0px;
+      background-color: #335AFF;
+      font-size: 14px;
+      font-weight: 500;
+      border: none;
+      border-radius: 4px;
+      text-transform: uppercase; }
+      .account-sign-in form button:focus {
+        background-color: #335AFF;
+        border: none;
+        -webkit-box-shadow: none;
+                box-shadow: none; }
+    .account-sign-in .social-signing {
+      margin-top: 30px; }
+      .account-sign-in .social-signing p {
+        font-size: 14px;
+        font-weight: 400;
+        margin-bottom: 15px; }
+      .account-sign-in .social-signing-link {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+                flex-wrap: wrap; }
+        .account-sign-in .social-signing-link a {
+          margin-left: 16px;
+          border: 1px solid #EFEFEF;
+          color: #989BA7;
+          padding: 12px 18px;
+          border-radius: 3px; }
+          .account-sign-in .social-signing-link a svg {
+            margin-right: 5px; }
+  .account-sign-up {
+    padding: 45px;
+    background-color: white;
+    border-radius: 5px; }
+    .account-sign-up h5 {
+      color: #1A2224;
+      font-size: 32px;
+      font-weight: 600;
+      margin-bottom: 20px; }
 

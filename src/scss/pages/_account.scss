@@ -1,0 +1,120 @@
+.account-sign {
+    padding: 100px;
+    background-color: $gray;
+
+    &-in {
+        padding: 45px;
+        background-color: $white;
+        border-radius: 5px;
+
+        h5 {
+            color: $black;
+            font-size: 32px;
+            font-weight: 600;
+            margin-bottom: 30px;
+        }
+
+        form {
+            .input-group {
+                width: 100%;
+                margin-bottom: 24px;
+
+                input {
+                    border: 1px solid $lightBlack;
+                    border-radius: 4px;
+                    padding: 20px;
+                }
+            }
+
+            .password-info {
+                margin-top: 12px;
+                margin-bottom: 30px;
+
+                &-left {
+                    display: flex;
+                    align-items: center;
+
+                    input {
+                        width: 15px;
+                        height: 15px;
+                        border-color: $lightBlack;
+                        border-radius: 2px;
+                        margin-right: 6px;
+                    }
+
+                    label {
+                        cursor: pointer;
+                        font-size: 14px;
+                        color: $lightBlack;
+                    }
+                }
+
+                &-right {
+                    a {
+                        color: $black;
+                        font-size: 14px;
+                    }
+                }
+            }
+
+            button {
+                width: 100%;
+                padding: 15px 0px;
+                background-color: $blue;
+                font-size: 14px;
+                font-weight: 500;
+                border: none;
+                border-radius: 4px;
+                text-transform: uppercase;
+
+                &:focus {
+                    background-color: $blue;
+                    border: none;
+                    box-shadow: none;
+                }
+            }
+        }
+
+        .social-signing {
+            margin-top: 30px;
+
+            p {
+                font-size: 14px;
+                font-weight: 400;
+                margin-bottom: 15px;
+            }
+
+            &-link {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+
+                a {
+                    margin-left: 16px;
+                    border: 1px solid $gray;
+                    color: $lightBlack;
+                    padding: 12px 18px;
+                    border-radius: 3px;
+
+                    svg {
+                        margin-right: 5px;
+                    }
+                }
+            }
+        }
+    }
+
+    &-up {
+        padding: 45px;
+        background-color: $white;
+        border-radius: 5px;
+
+        h5 {
+            color: $black;
+            font-size: 32px;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+    }
+}
