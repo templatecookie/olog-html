@@ -9543,6 +9543,10 @@ footer {
       font-weight: 500;
       margin-bottom: 0; }
 
+@media (max-width: 420px) {
+  .card-price h6 {
+    text-align: center; } }
+
 .btn {
   padding: 18px 45px;
   font-size: 16px;
