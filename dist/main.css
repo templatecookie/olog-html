@@ -9152,6 +9152,28 @@ footer {
     font-weight: 600;
     margin-bottom: 0; }
 
+@media only screen and (min-width: 420px) and (max-width: 574px) {
+  .breadcrumb-area {
+    padding: 25px 0px; }
+    .breadcrumb-area .breadcrumb {
+      margin-bottom: 0;
+      padding-right: 0; }
+      .breadcrumb-area .breadcrumb-item {
+        margin-bottom: 10px; } }
+
+@media (max-width: 420px) {
+  .breadcrumb-area {
+    padding: 25px 0px; }
+    .breadcrumb-area .breadcrumb {
+      margin-bottom: 0;
+      padding-right: 0; }
+      .breadcrumb-area .breadcrumb-item {
+        margin-bottom: 10px;
+        padding-left: 0;
+        padding-right: 10px; }
+    .breadcrumb-area h5 {
+      font-size: 26px; } }
+
 .card-price {
   padding: 26px;
   border: 2px solid #EFEFEF;
