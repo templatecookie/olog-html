@@ -9551,6 +9551,25 @@ footer {
   .card-price h6 {
     text-align: center; } }
 
+.brand-area {
+  padding: 15px 0px;
+  overflow: hidden; }
+  .brand-area-image img {
+    cursor: pointer;
+    -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+    opacity: 0.2;
+    -webkit-transition: 0.3s all linear;
+    transition: 0.3s all linear; }
+    .brand-area-image img:hover {
+      -webkit-filter: grayscale(0%);
+              filter: grayscale(0%);
+      opacity: 1; }
+
+@media (min-width: 575px) and (max-width: 767px) {
+  .brand-area-image {
+    margin-bottom: 10px; } }
+
 .btn {
   padding: 18px 45px;
   font-size: 16px;
@@ -9884,7 +9903,8 @@ footer {
   .populerproduct .product-item {
     margin-bottom: 50px; }
     .populerproduct .product-item .product-item-image img {
-      margin: auto; } }
+      margin: auto;
+      width: 100%; } }
 
 /* extra Small devices 420 */
 .productcategory {
