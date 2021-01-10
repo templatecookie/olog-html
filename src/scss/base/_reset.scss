@@ -24,6 +24,12 @@ body {
     font-family: $font;
 }
 
+@media (min-width: 1200px) {
+	.container, .container-sm, .container-md, .container-lg, .container-xl {
+		max-width: 1170px;
+	}
+}
+
 a,
 .button {
 	-webkit-transition: all 0.3s ease-out 0s;
