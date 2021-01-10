@@ -9189,21 +9189,6 @@ footer {
       line-height: 24px; }
     footer .newsletter-area-button .form {
       position: relative; }
-      footer .newsletter-area-button .form ::-webkit-input-placeholder {
-        color: #989BA7;
-        font-size: 18px; }
-      footer .newsletter-area-button .form ::-moz-placeholder {
-        color: #989BA7;
-        font-size: 18px; }
-      footer .newsletter-area-button .form :-ms-input-placeholder {
-        color: #989BA7;
-        font-size: 18px; }
-      footer .newsletter-area-button .form ::-ms-input-placeholder {
-        color: #989BA7;
-        font-size: 18px; }
-      footer .newsletter-area-button .form ::placeholder {
-        color: #989BA7;
-        font-size: 18px; }
       footer .newsletter-area-button .form input {
         color: #ffffff;
         padding: 30px 0px 30px 30px;
@@ -9254,6 +9239,129 @@ footer {
       color: #ffffff;
       font-weight: 600;
       margin-left: 26px; }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  footer .newsletter-area {
+    margin-bottom: 50px; }
+    footer .newsletter-area-text {
+      text-align: center;
+      margin-bottom: 30px; }
+  footer .newsletter-area-button .form input {
+    padding: 25px 0px 25px 25px; }
+  footer .newsletter-area-button .form button {
+    top: 5px;
+    right: 5px; }
+  footer .main-footer {
+    padding: 30px 0px; }
+  footer .main-footer-info p {
+    margin-top: 20px;
+    margin-bottom: 25px; }
+  footer .copyright-text p {
+    margin-bottom: 0; } }
+
+@media (min-width: 575px) and (max-width: 767px) {
+  footer .newsletter-area {
+    margin-bottom: 40px; }
+    footer .newsletter-area-text {
+      text-align: center;
+      margin-bottom: 30px; }
+      footer .newsletter-area-text p {
+        font-size: 14px;
+        text-align: left; }
+  footer footer .newsletter-area-text h4 {
+    font-size: 28px;
+    line-height: 36px; }
+  footer footer .newsletter-area-button .form input {
+    padding: 25px 0px 25px 25px; }
+  footer footer .newsletter-area-button .form button {
+    top: 5px;
+    right: 5px; }
+  footer footer .main-footer {
+    padding: 30px 0px; }
+  footer footer .main-footer-info p {
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-size: 14px; }
+  footer footer .copyright-text p {
+    margin-bottom: 0; } }
+
+@media only screen and (min-width: 420px) and (max-width: 574px) {
+  footer {
+    padding: 50px 0px 20px 0px; }
+    footer .newsletter-area {
+      margin-bottom: 30px; }
+      footer .newsletter-area-text {
+        text-align: center;
+        margin-bottom: 30px; }
+        footer .newsletter-area-text p {
+          font-size: 14px;
+          text-align: left; }
+  footer .newsletter-area-text h4 {
+    font-size: 26px;
+    line-height: 32px; }
+  footer .main-footer-quicklinks .quicklink {
+    margin-top: 15px; }
+  footer .newsletter-area-button .form input {
+    padding: 25px 0px 25px 25px; }
+  footer .newsletter-area-button .form button {
+    top: 5px;
+    right: 5px; }
+  footer .main-footer {
+    padding: 30px 0px; }
+  footer .main-footer-info p {
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-size: 14px; }
+  footer .copyright-text p {
+    margin-bottom: 0;
+    line-height: 30px; }
+  footer .copyright-links a {
+    margin-left: 10px; }
+  footer .copyright {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; } }
+
+@media (max-width: 420px) {
+  footer {
+    padding: 30px 0px 10px 0px; }
+    footer .newsletter-area {
+      margin-bottom: 25px; }
+      footer .newsletter-area-text {
+        text-align: center;
+        margin-bottom: 15px; }
+        footer .newsletter-area-text p {
+          font-size: 14px;
+          text-align: left; }
+  footer .newsletter-area-text h4 {
+    font-size: 19px;
+    line-height: 27px; }
+  footer .main-footer-quicklinks .quicklink {
+    margin-top: 15px; }
+  footer .newsletter-area-button .form input {
+    padding: 25px 0px 25px 25px; }
+  footer .newsletter-area-button .form button {
+    top: 5px;
+    right: 5px; }
+  footer .main-footer {
+    padding: 30px 0px;
+    padding-bottom: 0; }
+  footer .main-footer-info p {
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-size: 14px; }
+  .main-footer-quicklinks {
+    margin-bottom: 30px; }
+  footer .copyright-text p {
+    margin-bottom: 0;
+    line-height: 35px;
+    font-size: 13px; }
+  footer .copyright-links a {
+    margin-left: 10px; }
+  footer .copyright {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; } }
 
 .breadcrumb-area {
   padding: 65px 0px;
@@ -9438,6 +9546,10 @@ footer {
       color: #1A2224;
       font-weight: 500;
       margin-bottom: 0; }
+
+@media (max-width: 420px) {
+  .card-price h6 {
+    text-align: center; } }
 
 .btn {
   padding: 18px 45px;
