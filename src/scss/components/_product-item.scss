@@ -1,3 +1,11 @@
+.populerproduct{
+    background-color: rgba(239, 239, 239, 0.4);
+    padding: 100px 0 20px 0;
+    .product-item{
+        margin-bottom: 50px;
+    }
+}
+
 .product-item{
     &-image{
         position: relative;
@@ -54,4 +62,38 @@
             font-weight: 400;
         }
     }
+}
+
+/*----------------------------------------*/
+/*  RESPONSIVE CSS START 
+/*----------------------------------------*/
+
+/* large devices 992 - 1169*/
+@media (min-width: 992px) and (max-width: 1200px) {
+}
+
+/* Medium devices 768 - 991 */
+@media (min-width: 768px) and (max-width: 991px) {
+}
+/* Small devices 575 - 767 */
+@media (min-width: 575px) and (max-width: 767px) {
+}
+
+
+/* Small devices 420 - 574 */
+@media only screen and (min-width: 420px) and (max-width: 575px) {
+    .populerproduct{
+        .product-item{
+            margin-bottom: 50px;
+            .product-item-image{
+                img{
+                    margin: auto;
+                }
+            }
+        }
+    }
+
+}
+/* extra Small devices 420 */
+@media (max-width: 420px) {
 }
