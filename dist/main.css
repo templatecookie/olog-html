@@ -9145,6 +9145,38 @@ footer {
     font-weight: 600;
     margin-bottom: 0; }
 
+.card-price {
+  padding: 26px;
+  border: 2px solid #EFEFEF;
+  border-radius: 4px; }
+  .card-price h6 {
+    color: #1A2224;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px; }
+  .card-price-list {
+    margin-bottom: 12px; }
+    .card-price-list .item p {
+      font-size: 16px;
+      color: #989BA7;
+      margin-bottom: 0; }
+    .card-price-list .price p {
+      font-size: 16px;
+      color: #1A2224;
+      margin-bottom: 0; }
+  .card-price-subtotal {
+    padding-top: 12px;
+    border-top: 1px solid #EFEFEF; }
+    .card-price-subtotal .total-text p {
+      font-size: 18px;
+      color: #1A2224;
+      margin-bottom: 0; }
+    .card-price-subtotal .total-price p {
+      font-size: 18px;
+      color: #1A2224;
+      font-weight: 500;
+      margin-bottom: 0; }
+
 .btn {
   padding: 18px 45px;
   font-size: 16px;
