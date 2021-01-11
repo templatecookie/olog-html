@@ -10631,6 +10631,27 @@ footer {
     .forget-password .account-sign-in .ask-signup a {
       color: #1A2224;
       font-size: 16px; }
+  .forget-password .password-info-show {
+    margin-top: 12px;
+    margin-bottom: 32px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .forget-password .password-info-show input {
+      margin-right: 6px;
+      width: 15px;
+      height: 15px;
+      border-color: #989BA7;
+      border-radius: 2px; }
+    .forget-password .password-info-show label {
+      cursor: pointer;
+      font-size: 14px;
+      color: #989BA7; }
 
 @media (min-width: 575px) and (max-width: 767px) {
   .forget-password {
