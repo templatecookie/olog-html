@@ -10395,7 +10395,7 @@ footer {
 /* Small devices 420 - 574 */
 /* extra Small devices 420 */
 .account-sign {
-  padding: 100px;
+  padding: 100px 0px;
   background-color: #EFEFEF; }
   .account-sign-in {
     padding: 45px;
@@ -10617,4 +10617,32 @@ footer {
     margin-bottom: 20px;
     text-align: center;
     margin-left: 0; } }
+
+.forget-password {
+  padding: 100px 0px;
+  background-color: #EFEFEF; }
+  .forget-password .account-sign-in {
+    max-width: 540px;
+    margin: 0 auto; }
+    .forget-password .account-sign-in .form__div {
+      margin-bottom: 30px; }
+    .forget-password .account-sign-in .social-signing {
+      margin-bottom: 30px; }
+    .forget-password .account-sign-in .ask-signup a {
+      color: #1A2224;
+      font-size: 16px; }
+
+@media (min-width: 575px) and (max-width: 767px) {
+  .forget-password {
+    padding: 70px 0px; } }
+
+@media only screen and (min-width: 420px) and (max-width: 574px) {
+  .forget-password {
+    padding: 50px 0px; } }
+
+@media (max-width: 420px) {
+  .forget-password {
+    padding: 30px 0px; }
+    .forget-password .modi-sm {
+      font-size: 30px; } }
 
