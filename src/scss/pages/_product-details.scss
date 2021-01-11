@@ -1,0 +1,41 @@
+.product {
+    padding: 100px 0;
+    &-slider {
+        margin-right: 55px;
+        .exzoom {
+            &_img {
+                &_box {
+                    background: transparent;
+                    width: 500px !important;
+                    height: 493px !important;
+                }
+
+                &_ul {
+                    &_outer {
+                        border: 0;
+                    }
+                    li{
+                        img{
+                            border-radius: 5px;
+                            max-width: 100%;
+                            object-fit: cover;
+                        }
+                    }
+                    &_outer{
+                        width: 500px !important;
+                        height: 493px !important;
+                    }
+                }
+            }
+            &_nav{
+                left: 0;
+                margin-top: 0px;
+            }
+            .exzoom_nav_inner span{
+                border: 0;
+                margin-left: 0 !important;
+                margin-right: 8px;
+            }
+        }
+    }
+}
