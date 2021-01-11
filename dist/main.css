@@ -10531,7 +10531,7 @@ footer {
         margin-top: 0; } }
 
 .account-sign {
-  padding: 100px;
+  padding: 100px 0px;
   background-color: #EFEFEF; }
   .account-sign-in {
     padding: 45px;
@@ -10780,4 +10780,135 @@ footer {
         color: #989BA7; }
     .billing-area form a {
       margin-top: 10px; }
+
+.forget-password {
+  padding: 100px 0px;
+  background-color: #EFEFEF; }
+  .forget-password .account-sign-in {
+    max-width: 540px;
+    margin: 0 auto; }
+    .forget-password .account-sign-in .form__div {
+      margin-bottom: 30px; }
+    .forget-password .account-sign-in .social-signing {
+      margin-bottom: 30px; }
+    .forget-password .account-sign-in .ask-signup a {
+      color: #1A2224;
+      font-size: 16px; }
+  .forget-password .password-info-show {
+    margin-top: 12px;
+    margin-bottom: 32px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .forget-password .password-info-show input {
+      margin-right: 6px;
+      width: 15px;
+      height: 15px;
+      border-color: #989BA7;
+      border-radius: 2px; }
+    .forget-password .password-info-show label {
+      cursor: pointer;
+      font-size: 14px;
+      color: #989BA7; }
+
+@media (min-width: 575px) and (max-width: 767px) {
+  .forget-password {
+    padding: 70px 0px; } }
+
+@media only screen and (min-width: 420px) and (max-width: 574px) {
+  .forget-password {
+    padding: 50px 0px; } }
+
+@media (max-width: 420px) {
+  .forget-password {
+    padding: 30px 0px; }
+    .forget-password .modi-sm {
+      font-size: 30px; } }
+
+.verify-area {
+  padding: 100px 0px;
+  background-color: #EFEFEF; }
+  .verify-area-email {
+    margin: 0 auto;
+    max-width: 600px;
+    background-color: #FFFFFF;
+    padding: 45px;
+    border-radius: 5px; }
+    .verify-area-email .text {
+      margin-bottom: 35px; }
+      .verify-area-email .text h5 {
+        margin-bottom: 12px;
+        color: #1A2224;
+        font-weight: 600;
+        font-size: 32px; }
+      .verify-area-email .text p {
+        font-size: 16px;
+        color: #989BA7;
+        line-height: 24px; }
+        .verify-area-email .text p a {
+          color: #1A2224; }
+    .verify-area-email .verify {
+      margin-bottom: 50px;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      -webkit-flex-wrap: wrap;
+          -ms-flex-wrap: wrap;
+              flex-wrap: wrap; }
+      .verify-area-email .verify .box {
+        width: 72px;
+        height: 80px;
+        border: 2px solid #EFEFEF;
+        border-radius: 5px; }
+    .verify-area-email form button {
+      width: 100%;
+      padding: 15px 0px;
+      color: #FFFFFF;
+      font-size: 14px;
+      font-weight: 500;
+      text-transform: uppercase;
+      border-radius: 4px;
+      border: none;
+      background-color: #EFEFEF; }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .verify-area {
+    padding: 70px 0px; } }
+
+@media (min-width: 575px) and (max-width: 767px) {
+  .verify-area {
+    padding: 50px 0px; }
+  .verify-area-email .verify .box {
+    margin-bottom: 15px; } }
+
+@media only screen and (min-width: 420px) and (max-width: 574px) {
+  .verify-area {
+    padding: 30px 0px; }
+  .verify-area-email .verify .box {
+    margin-bottom: 25px;
+    margin-right: 15px; }
+  .verify-area-email .text h5 {
+    text-align: center; } }
+
+@media (max-width: 420px) {
+  .verify-area {
+    padding: 30px 0px; }
+  .verify-area-email {
+    padding: 20px; }
+  .verify-area-email .verify {
+    margin-bottom: 10px; }
+  .verify-area-email .verify .box {
+    margin-bottom: 25px; }
+  .verify-area-email .text h5 {
+    text-align: center; } }
 
