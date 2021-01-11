@@ -9105,6 +9105,9 @@ textarea,
 textarea:focus {
   outline: 0; }
 
+.mt-15 {
+  margin-top: 15px; }
+
 h1, h2, h3, h4, h5, h6 {
   color: #2c303e;
   margin-top: 0px;
@@ -10396,7 +10399,8 @@ footer {
 /* extra Small devices 420 */
 .account {
   background-color: #EFEFEF;
-  padding: 100px 0; }
+  padding-top: 50px;
+  padding-bottom: 100px; }
   .account-setting {
     padding: 45px;
     background-color: white; }
@@ -10749,4 +10753,31 @@ footer {
     margin-bottom: 20px;
     text-align: center;
     margin-left: 0; } }
+
+.billing {
+  background-color: #EFEFEF;
+  padding: 100px 0; }
+  .billing-area {
+    padding: 45px;
+    background-color: white; }
+    .billing-area h6 {
+      margin-top: 26px;
+      color: #1A2224;
+      font-size: 24px;
+      line-height: 32px;
+      font-weight: 600;
+      margin-bottom: 20px; }
+    .billing-area form .form__div {
+      margin-bottom: 20px; }
+      .billing-area form .form__div input {
+        border: 1px solid #989BA7;
+        border-radius: 4px;
+        padding: 18px;
+        width: 100% !important; }
+      .billing-area form .form__div label {
+        cursor: pointer;
+        font-size: 14px;
+        color: #989BA7; }
+    .billing-area form a {
+      margin-top: 10px; }
 
