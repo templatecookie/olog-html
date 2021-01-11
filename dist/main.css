@@ -10394,6 +10394,138 @@ footer {
 /* Small devices 575 - 767 */
 /* Small devices 420 - 574 */
 /* extra Small devices 420 */
+.account {
+  background-color: #EFEFEF;
+  padding: 100px 0; }
+  .account-setting {
+    padding: 45px;
+    background-color: white; }
+    .account-setting h6 {
+      margin-top: 26px;
+      color: #1A2224;
+      font-size: 24px;
+      line-height: 32px;
+      font-weight: 600;
+      margin-bottom: 20px; }
+    .account-setting form .form__div {
+      margin-bottom: 20px; }
+      .account-setting form .form__div input {
+        border: 1px solid #989BA7;
+        border-radius: 4px;
+        padding: 18px;
+        width: 100% !important; }
+      .account-setting form .form__div label {
+        cursor: pointer;
+        font-size: 14px;
+        color: #989BA7; }
+    .account-setting form a {
+      margin-top: 10px; }
+  .account .change-password {
+    padding: 45px;
+    padding-top: 70px;
+    background-color: white;
+    border-radius: 5px; }
+    .account .change-password h6 {
+      color: #1A2224;
+      font-size: 24px;
+      line-height: 32px;
+      font-weight: 600;
+      margin-bottom: 20px; }
+    .account .change-password form .form__div {
+      margin-bottom: 20px; }
+      .account .change-password form .form__div input {
+        border: 1px solid #989BA7;
+        border-radius: 4px;
+        padding: 18px;
+        width: 100% !important; }
+      .account .change-password form .form__div label {
+        cursor: pointer;
+        font-size: 14px;
+        color: #989BA7; }
+    .account .change-password form a {
+      margin-top: 10px; }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .account {
+    padding: 50px 0; }
+    .account-setting {
+      padding: 10px 40px 20px 40px; }
+      .account-setting h6 {
+        margin-top: 15px; }
+    .account .change-password {
+      margin-top: 30px;
+      padding: 0 40px 10px 40px;
+      background-color: white;
+      border-radius: 5px; } }
+
+@media (min-width: 575px) and (max-width: 767px) {
+  .account {
+    padding: 50px 0; }
+    .account-setting {
+      padding: 10px 40px 20px 40px; }
+      .account-setting h6 {
+        margin-top: 10px;
+        margin-bottom: 15px;
+        font-size: 20px;
+        line-height: 28px; }
+    .account .change-password {
+      margin-top: 30px;
+      padding: 0 40px 10px 40px;
+      background-color: white;
+      border-radius: 5px; }
+      .account .change-password h6 {
+        font-size: 20px;
+        line-height: 28px;
+        margin-bottom: 15px; } }
+
+@media only screen and (min-width: 420px) and (max-width: 574px) {
+  .account {
+    padding: 50px 0; }
+    .account-setting {
+      padding: 10px 40px 20px 40px; }
+      .account-setting h6 {
+        margin-top: 10px;
+        margin-bottom: 15px;
+        font-size: 20px;
+        line-height: 28px; }
+      .account-setting form a {
+        margin-top: 0; }
+    .account .change-password {
+      margin-top: 30px;
+      padding: 70px 40px 10px 40px;
+      background-color: white;
+      border-radius: 5px; }
+      .account .change-password h6 {
+        font-size: 20px;
+        line-height: 28px;
+        margin-bottom: 15px; }
+      .account .change-password form a {
+        margin-top: 0; } }
+
+@media (max-width: 420px) {
+  .account {
+    padding: 50px 0; }
+    .account-setting {
+      padding: 10px 40px 20px 40px; }
+      .account-setting h6 {
+        margin-top: 10px;
+        margin-bottom: 15px;
+        font-size: 20px;
+        line-height: 28px; }
+      .account-setting form a {
+        margin-top: 0; }
+    .account .change-password {
+      margin-top: 30px;
+      padding: 70px 40px 10px 40px;
+      background-color: white;
+      border-radius: 5px; }
+      .account .change-password h6 {
+        font-size: 20px;
+        line-height: 28px;
+        margin-bottom: 15px; }
+      .account .change-password form a {
+        margin-top: 0; } }
+
 .account-sign {
   padding: 100px;
   background-color: #EFEFEF; }
