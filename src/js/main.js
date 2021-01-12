@@ -1,5 +1,6 @@
 $(document).ready(function () {
-
+    //seletor
+    $('select').niceSelect();
   //testimonial_slider
   $('.features-active').slick({
     infinite: true,
@@ -49,9 +50,6 @@ $(document).ready(function () {
       },
     ],
   });
-  
-  //seletor
-  $('select').niceSelect();
   
     //Number Picker
     $(".wan-spinner-4").WanSpinner({

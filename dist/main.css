@@ -9311,6 +9311,18 @@ p {
 .bg-lightwhite {
   background-color: #FAFAFA; }
 
+@media (max-width: 420px) {
+  *::-moz-placeholder {
+    font-size: 12px; }
+  *::-webkit-input-placeholder {
+    font-size: 10px; }
+  *:-ms-input-placeholder {
+    font-size: 10px; }
+  *::-ms-input-placeholder {
+    font-size: 10px; }
+  *::placeholder {
+    font-size: 10px; } }
+
 footer {
   padding: 70px 0px 30px 0px;
   background-color: #1A2224; }
@@ -10170,6 +10182,11 @@ footer {
 
 .border {
   border-radius: 50px; }
+
+@media (max-width: 420px) {
+  .btn {
+    padding: 15px 30px;
+    font-size: 14px; } }
 
 /*===== FORM =====*/
 .l-form {
