@@ -11715,3 +11715,9 @@ footer {
   .deliver-info-form form button {
     margin-top: 0; } }
 
+.wishlist-area {
+  padding-top: 50px;
+  padding-bottom: 100px; }
+  .wishlist-area .dashboard-nav {
+    margin-bottom: 100px; }
+
