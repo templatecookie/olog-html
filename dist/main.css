@@ -11785,3 +11785,122 @@ footer {
   .order-area .dashboard-nav {
     margin-bottom: 100px; }
 
+.billing-info-area {
+  padding-top: 50px;
+  padding-bottom: 100px; }
+  .billing-info-area .dashboard-nav {
+    margin-bottom: 100px; }
+    .billing-info-area .dashboard-nav .list-inline {
+      display: inline-block; }
+      .billing-info-area .dashboard-nav .list-inline-item a {
+        margin-right: 12px; }
+      .billing-info-area .dashboard-nav .list-inline-item i {
+        color: #989BA7;
+        font-size: 16px;
+        margin-right: 2px; }
+  .billing-info-area .card-price {
+    margin-left: 15px; }
+  .billing-info-area .payment-method-area {
+    margin-bottom: 50px;
+    padding: 26px;
+    border: 1px solid #EFEFEF;
+    border-radius: 4px; }
+    .billing-info-area .payment-method-area h5 {
+      color: #1A2224;
+      font-size: 24px;
+      font-weight: 600;
+      margin-bottom: 16px;
+      text-align: center; }
+    .billing-info-area .payment-method-area .payment-method {
+      margin-bottom: 16px; }
+      .billing-info-area .payment-method-area .payment-method .method {
+        margin-right: 12px; }
+        .billing-info-area .payment-method-area .payment-method .method a {
+          padding: 12px 18px;
+          border: 1px solid #EFEFEF;
+          border-radius: 2px;
+          text-align: center; }
+    .billing-info-area .payment-method-area-text p {
+      font-size: 14px;
+      color: #989BA7;
+      margin-bottom: 8px; }
+    .billing-info-area .payment-method-area-text h6 {
+      color: #1A2224;
+      font-size: 18px;
+      font-weight: 600; }
+  .billing-info-area .bottom a {
+    font-size: 16px;
+    color: #1A2224;
+    font-weight: 500; }
+    .billing-info-area .bottom a i {
+      margin-right: 10px; }
+
+.form__div input {
+  width: 100% !important; }
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .billing-info-area .payment-method-area .payment-method .method {
+    margin-right: 10px;
+    margin-bottom: 28px; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .billing-info-area .card-price {
+    margin-left: 0;
+    margin-bottom: 50px; }
+  .billing-info-area .dashboard-nav {
+    margin-bottom: 50px; }
+  .billing-info-area {
+    padding-bottom: 70px; }
+  .dashboard-nav .list-inline-item .active::after {
+    bottom: -19px; } }
+
+@media (min-width: 575px) and (max-width: 767px) {
+  .billing-info-area .card-price {
+    margin-left: 0;
+    margin-bottom: 50px; }
+  .billing-info-area .dashboard-nav {
+    margin-bottom: 50px; }
+  .billing-info-area {
+    padding-bottom: 50px; }
+  .dashboard-nav .list-inline-item .active::after {
+    bottom: -19px; }
+  .billing-info-area .payment-method-area .payment-method .method {
+    margin-right: 10px;
+    margin-bottom: 28px; } }
+
+@media only screen and (min-width: 420px) and (max-width: 574px) {
+  .billing-info-area .card-price {
+    margin-left: 0;
+    margin-bottom: 50px; }
+  .billing-info-area .dashboard-nav {
+    margin-bottom: 50px; }
+  .billing-info-area {
+    padding-bottom: 50px; }
+  .dashboard-nav .list-inline-item .active::after {
+    bottom: -19px; }
+  .billing-info-area .payment-method-area .payment-method .method {
+    margin-right: 10px;
+    margin-bottom: 28px; }
+  .billing-info-area .payment-method-area h5 {
+    margin-bottom: 20px;
+    font-size: 20px; } }
+
+@media (max-width: 420px) {
+  .billing-info-area .card-price {
+    margin-left: 0;
+    margin-bottom: 50px; }
+  .billing-info-area .dashboard-nav {
+    margin-bottom: 50px; }
+  .billing-info-area {
+    padding-bottom: 50px; }
+  .dashboard-nav .list-inline-item .active::after {
+    bottom: -3px; }
+  .billing-info-area .payment-method-area .payment-method .method {
+    margin-right: 10px;
+    margin-bottom: 28px; }
+  .billing-info-area .payment-method-area h5 {
+    margin-bottom: 20px;
+    font-size: 20px; }
+  .billing-info-area .bottom a {
+    margin-bottom: 15px; } }
+
