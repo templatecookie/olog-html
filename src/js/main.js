@@ -49,6 +49,9 @@ $(document).ready(function () {
       },
     ],
   });
+  
+  //seletor
+  $('select').niceSelect();
 
   //Product Details Slider
   $("#exzoom").exzoom({
@@ -64,7 +67,7 @@ $(document).ready(function () {
     "autoPlayTimeout": 2000
 
   });
-  
+
   //Number Picker
   $(".wan-spinner-4").WanSpinner({
     inputWidth: 100
@@ -80,6 +83,5 @@ $(document).ready(function () {
     $(this).addClass('active').siblings().removeClass('active');
   });
 
-  //seletor
-  $('select').niceSelect();
+
 });
