@@ -10714,9 +10714,13 @@ footer {
     margin-bottom: 8px; }
 
 .cart-items .body .item {
-  margin-top: 18px;
+  margin-top: 24px;
   border-bottom: 1px solid #EFEFEF;
   padding-bottom: 24px; }
+  .cart-items .body .item:first-child {
+    margin-top: 18px; }
+  .cart-items .body .item:last-child {
+    border-bottom: 0; }
 
 /*----------------------------------------*/
 /*  RESPONSIVE CSS START 
