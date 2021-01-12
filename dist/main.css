@@ -10528,7 +10528,6 @@ footer {
 /* Small devices 420 - 574 */
 /* extra Small devices 420 */
 .account {
-  background-color: #EFEFEF;
   padding-top: 50px;
   padding-bottom: 100px; }
   .account-setting {
@@ -10579,6 +10578,27 @@ footer {
     .account .change-password form a {
       margin-top: 10px; }
 
+.dashboard-nav .list-inline {
+  max-width: 740px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #EFEFEF; }
+  .dashboard-nav .list-inline-item a {
+    font-size: 16px;
+    font-weight: 500;
+    color: #989BA7;
+    margin-right: 25px; }
+  .dashboard-nav .list-inline-item .active {
+    color: #1A2224;
+    position: relative; }
+    .dashboard-nav .list-inline-item .active::after {
+      position: absolute;
+      content: '';
+      bottom: -10px;
+      left: 0;
+      height: 1px;
+      width: 100%;
+      background-color: #1A2224; }
+
 @media (min-width: 768px) and (max-width: 991px) {
   .account {
     padding: 50px 0; }
@@ -10590,7 +10610,12 @@ footer {
       margin-top: 30px;
       padding: 0 40px 10px 40px;
       background-color: white;
-      border-radius: 5px; } }
+      border-radius: 5px; }
+  .dashboard-nav .list-inline-item .active {
+    margin-bottom: 10px;
+    display: inline-block; }
+  .dashboard-nav .list-inline-item .active::after {
+    bottom: -3px; } }
 
 @media (min-width: 575px) and (max-width: 767px) {
   .account {
@@ -10610,7 +10635,12 @@ footer {
       .account .change-password h6 {
         font-size: 20px;
         line-height: 28px;
-        margin-bottom: 15px; } }
+        margin-bottom: 15px; }
+  .dashboard-nav .list-inline-item .active {
+    margin-bottom: 10px;
+    display: inline-block; }
+  .dashboard-nav .list-inline-item .active::after {
+    bottom: -3px; } }
 
 @media only screen and (min-width: 420px) and (max-width: 574px) {
   .account {
@@ -10634,7 +10664,12 @@ footer {
         line-height: 28px;
         margin-bottom: 15px; }
       .account .change-password form a {
-        margin-top: 0; } }
+        margin-top: 0; }
+  .dashboard-nav .list-inline-item .active {
+    margin-bottom: 10px;
+    display: inline-block; }
+  .dashboard-nav .list-inline-item .active::after {
+    bottom: -3px; } }
 
 @media (max-width: 420px) {
   .account {
@@ -10658,7 +10693,16 @@ footer {
         line-height: 28px;
         margin-bottom: 15px; }
       .account .change-password form a {
-        margin-top: 0; } }
+        margin-top: 0; }
+  .dashboard-nav .list-inline-item .active {
+    margin-bottom: 10px;
+    display: inline-block; }
+  .dashboard-nav .list-inline-item .active::after {
+    bottom: -3px; }
+  .dashboard-nav .list-inline-item a {
+    margin-right: 15px;
+    margin-bottom: 10px;
+    display: inline-block; } }
 
 .product {
   padding: 100px 0; }
@@ -11450,33 +11494,6 @@ footer {
     margin-bottom: 20px;
     text-align: center;
     margin-left: 0; } }
-
-.billing {
-  background-color: #EFEFEF;
-  padding: 100px 0; }
-  .billing-area {
-    padding: 45px;
-    background-color: white; }
-    .billing-area h6 {
-      margin-top: 26px;
-      color: #1A2224;
-      font-size: 24px;
-      line-height: 32px;
-      font-weight: 600;
-      margin-bottom: 20px; }
-    .billing-area form .form__div {
-      margin-bottom: 20px; }
-      .billing-area form .form__div input {
-        border: 1px solid #989BA7;
-        border-radius: 4px;
-        padding: 18px;
-        width: 100% !important; }
-      .billing-area form .form__div label {
-        cursor: pointer;
-        font-size: 14px;
-        color: #989BA7; }
-    .billing-area form a {
-      margin-top: 10px; }
 
 .forget-password {
   padding: 100px 0px;

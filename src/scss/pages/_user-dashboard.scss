@@ -1,5 +1,4 @@
 .account{
-    background-color: $gray;
     padding-top: 50px;
     padding-bottom: 100px;
     &-setting {
@@ -66,6 +65,35 @@
        }
      }
 }
+// Dashboard-Nav
+.dashboard-nav{
+    .list-inline{
+        max-width: 740px;
+        padding-bottom: 8px;
+        border-bottom: 1px solid $gray;
+        &-item{
+            a{
+                font-size: 16px;
+                font-weight: 500;
+                color: $lightBlack;
+                margin-right: 25px;
+            }
+            .active{
+                color: $black;
+                position: relative;
+                &::after{
+                    position: absolute;
+                    content: '';
+                    bottom: -10px;
+                    left: 0;
+                    height: 1px;
+                    width: 100%;
+                    background-color: $black;
+                }
+            }
+        }
+    }
+}
 
 // Responsive
 // large devices 992px - 1169px
@@ -89,6 +117,13 @@
         background-color: white;
         border-radius: 5px;
     }
+   }
+   .dashboard-nav .list-inline-item .active{
+    margin-bottom: 10px;
+    display: inline-block;
+   }
+   .dashboard-nav .list-inline-item .active::after{
+    bottom: -3px;
    }
 }
 
@@ -117,6 +152,13 @@
         }
     }
   }
+  .dashboard-nav .list-inline-item .active{
+    margin-bottom: 10px;
+    display: inline-block;
+   }
+   .dashboard-nav .list-inline-item .active::after{
+    bottom: -3px;
+   }
 }
 
 // Small devices 420px - 574px
@@ -153,6 +195,13 @@
               }
           }
       }
+    }
+    .dashboard-nav .list-inline-item .active{
+        margin-bottom: 10px;
+        display: inline-block;
+       }
+       .dashboard-nav .list-inline-item .active::after{
+        bottom: -3px;
     }
 }
 
@@ -191,4 +240,16 @@
         }
     }
   }
+  .dashboard-nav .list-inline-item .active{
+    margin-bottom: 10px;
+    display: inline-block;
+   }
+   .dashboard-nav .list-inline-item .active::after{
+    bottom: -3px;
+}
+.dashboard-nav .list-inline-item a{
+    margin-right: 15px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
 }
