@@ -10530,18 +10530,20 @@ footer {
 .account {
   padding-top: 50px;
   padding-bottom: 100px; }
+  .account .dashboard-nav {
+    margin-bottom: 100px; }
   .account-setting {
-    padding: 45px;
-    background-color: white; }
+    padding: 25px;
+    border-radius: 5px;
+    border: 1px solid #EFEFEF; }
     .account-setting h6 {
-      margin-top: 26px;
       color: #1A2224;
       font-size: 24px;
       line-height: 32px;
       font-weight: 600;
-      margin-bottom: 20px; }
+      margin-bottom: 30px; }
     .account-setting form .form__div {
-      margin-bottom: 20px; }
+      margin-bottom: 30px; }
       .account-setting form .form__div input {
         border: 1px solid #989BA7;
         border-radius: 4px;
@@ -10551,21 +10553,23 @@ footer {
         cursor: pointer;
         font-size: 14px;
         color: #989BA7; }
-    .account-setting form a {
-      margin-top: 10px; }
+    .account-setting form button {
+      border: 2px solid #335AFF; }
+      .account-setting form button:focus {
+        -webkit-box-shadow: none;
+                box-shadow: none; }
   .account .change-password {
-    padding: 45px;
-    padding-top: 70px;
-    background-color: white;
-    border-radius: 5px; }
+    padding: 25px;
+    border-radius: 5px;
+    border: 1px solid #EFEFEF; }
     .account .change-password h6 {
       color: #1A2224;
       font-size: 24px;
       line-height: 32px;
       font-weight: 600;
-      margin-bottom: 20px; }
+      margin-bottom: 30px; }
     .account .change-password form .form__div {
-      margin-bottom: 20px; }
+      margin-bottom: 30px; }
       .account .change-password form .form__div input {
         border: 1px solid #989BA7;
         border-radius: 4px;
@@ -10574,9 +10578,14 @@ footer {
       .account .change-password form .form__div label {
         cursor: pointer;
         font-size: 14px;
-        color: #989BA7; }
-    .account .change-password form a {
-      margin-top: 10px; }
+        color: #989BA7;
+        margin-bottom: 0; }
+    .account .change-password form button {
+      margin-top: 10px;
+      border: 2px solid #335AFF; }
+      .account .change-password form button:focus {
+        -webkit-box-shadow: none;
+                box-shadow: none; }
 
 .dashboard-nav .list-inline {
   max-width: 740px;
@@ -10611,6 +10620,13 @@ footer {
       padding: 0 40px 10px 40px;
       background-color: white;
       border-radius: 5px; }
+      .account .change-password form button {
+        margin-top: 0; }
+  .account .dashboard-nav {
+    margin-bottom: 30px; }
+  .change-password,
+  .account-setting {
+    padding: 10px !important; }
   .dashboard-nav .list-inline-item .active {
     margin-bottom: 10px;
     display: inline-block; }
@@ -10636,6 +10652,11 @@ footer {
         font-size: 20px;
         line-height: 28px;
         margin-bottom: 15px; }
+  .account .dashboard-nav {
+    margin-bottom: 30px; }
+  .change-password,
+  .account-setting {
+    padding: 10px !important; }
   .dashboard-nav .list-inline-item .active {
     margin-bottom: 10px;
     display: inline-block; }
@@ -10652,7 +10673,7 @@ footer {
         margin-bottom: 15px;
         font-size: 20px;
         line-height: 28px; }
-      .account-setting form a {
+      .account-setting form button {
         margin-top: 0; }
     .account .change-password {
       margin-top: 30px;
@@ -10663,8 +10684,13 @@ footer {
         font-size: 20px;
         line-height: 28px;
         margin-bottom: 15px; }
-      .account .change-password form a {
+      .account .change-password form button {
         margin-top: 0; }
+  .account .dashboard-nav {
+    margin-bottom: 30px; }
+  .change-password,
+  .account-setting {
+    padding: 10px !important; }
   .dashboard-nav .list-inline-item .active {
     margin-bottom: 10px;
     display: inline-block; }
@@ -10677,23 +10703,22 @@ footer {
     .account-setting {
       padding: 10px 40px 20px 40px; }
       .account-setting h6 {
-        margin-top: 10px;
         margin-bottom: 15px;
         font-size: 20px;
         line-height: 28px; }
-      .account-setting form a {
-        margin-top: 0; }
     .account .change-password {
-      margin-top: 30px;
-      padding: 70px 40px 10px 40px;
-      background-color: white;
-      border-radius: 5px; }
+      margin-top: 30px; }
       .account .change-password h6 {
         font-size: 20px;
         line-height: 28px;
         margin-bottom: 15px; }
-      .account .change-password form a {
+      .account .change-password form button {
         margin-top: 0; }
+  .account .dashboard-nav {
+    margin-bottom: 30px; }
+  .change-password,
+  .account-setting {
+    padding: 10px !important; }
   .dashboard-nav .list-inline-item .active {
     margin-bottom: 10px;
     display: inline-block; }
