@@ -9224,6 +9224,10 @@ button {
   color: #1696e7;
   outline: medium none; }
 
+button:focus {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important; }
+
 button:focus,
 input:focus,
 input:focus,
@@ -9233,6 +9237,9 @@ textarea:focus {
 
 .mt-15 {
   margin-top: 15px; }
+
+.mt-30 {
+  margin-top: 30px; }
 
 h1, h2, h3, h4, h5, h6 {
   color: #2c303e;
@@ -11050,21 +11057,22 @@ footer {
       line-height: 1.1; }
 
 .account {
-  background-color: #EFEFEF;
   padding-top: 50px;
   padding-bottom: 100px; }
+  .account .dashboard-nav {
+    margin-bottom: 100px; }
   .account-setting {
-    padding: 45px;
-    background-color: white; }
+    padding: 25px;
+    border-radius: 5px;
+    border: 1px solid #EFEFEF; }
     .account-setting h6 {
-      margin-top: 26px;
       color: #1A2224;
       font-size: 24px;
       line-height: 32px;
       font-weight: 600;
-      margin-bottom: 20px; }
+      margin-bottom: 30px; }
     .account-setting form .form__div {
-      margin-bottom: 20px; }
+      margin-bottom: 30px; }
       .account-setting form .form__div input {
         border: 1px solid #989BA7;
         border-radius: 4px;
@@ -11074,21 +11082,23 @@ footer {
         cursor: pointer;
         font-size: 14px;
         color: #989BA7; }
-    .account-setting form a {
-      margin-top: 10px; }
+    .account-setting form button {
+      border: 2px solid #335AFF; }
+      .account-setting form button:focus {
+        -webkit-box-shadow: none;
+                box-shadow: none; }
   .account .change-password {
-    padding: 45px;
-    padding-top: 70px;
-    background-color: white;
-    border-radius: 5px; }
+    padding: 25px;
+    border-radius: 5px;
+    border: 1px solid #EFEFEF; }
     .account .change-password h6 {
       color: #1A2224;
       font-size: 24px;
       line-height: 32px;
       font-weight: 600;
-      margin-bottom: 20px; }
+      margin-bottom: 30px; }
     .account .change-password form .form__div {
-      margin-bottom: 20px; }
+      margin-bottom: 30px; }
       .account .change-password form .form__div input {
         border: 1px solid #989BA7;
         border-radius: 4px;
@@ -11097,9 +11107,35 @@ footer {
       .account .change-password form .form__div label {
         cursor: pointer;
         font-size: 14px;
-        color: #989BA7; }
-    .account .change-password form a {
-      margin-top: 10px; }
+        color: #989BA7;
+        margin-bottom: 0; }
+    .account .change-password form button {
+      margin-top: 10px;
+      border: 2px solid #335AFF; }
+      .account .change-password form button:focus {
+        -webkit-box-shadow: none;
+                box-shadow: none; }
+
+.dashboard-nav .list-inline {
+  max-width: 740px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #EFEFEF; }
+  .dashboard-nav .list-inline-item a {
+    font-size: 16px;
+    font-weight: 500;
+    color: #989BA7;
+    margin-right: 25px; }
+  .dashboard-nav .list-inline-item .active {
+    color: #1A2224;
+    position: relative; }
+    .dashboard-nav .list-inline-item .active::after {
+      position: absolute;
+      content: '';
+      bottom: -10px;
+      left: 0;
+      height: 1px;
+      width: 100%;
+      background-color: #1A2224; }
 
 @media (min-width: 768px) and (max-width: 991px) {
   .account {
@@ -11112,7 +11148,19 @@ footer {
       margin-top: 30px;
       padding: 0 40px 10px 40px;
       background-color: white;
-      border-radius: 5px; } }
+      border-radius: 5px; }
+      .account .change-password form button {
+        margin-top: 0; }
+  .account .dashboard-nav {
+    margin-bottom: 30px; }
+  .change-password,
+  .account-setting {
+    padding: 10px !important; }
+  .dashboard-nav .list-inline-item .active {
+    margin-bottom: 10px;
+    display: inline-block; }
+  .dashboard-nav .list-inline-item .active::after {
+    bottom: -3px; } }
 
 @media (min-width: 575px) and (max-width: 767px) {
   .account {
@@ -11132,7 +11180,17 @@ footer {
       .account .change-password h6 {
         font-size: 20px;
         line-height: 28px;
-        margin-bottom: 15px; } }
+        margin-bottom: 15px; }
+  .account .dashboard-nav {
+    margin-bottom: 30px; }
+  .change-password,
+  .account-setting {
+    padding: 10px !important; }
+  .dashboard-nav .list-inline-item .active {
+    margin-bottom: 10px;
+    display: inline-block; }
+  .dashboard-nav .list-inline-item .active::after {
+    bottom: -3px; } }
 
 @media only screen and (min-width: 420px) and (max-width: 574px) {
   .account {
@@ -11144,7 +11202,7 @@ footer {
         margin-bottom: 15px;
         font-size: 20px;
         line-height: 28px; }
-      .account-setting form a {
+      .account-setting form button {
         margin-top: 0; }
     .account .change-password {
       margin-top: 30px;
@@ -11155,8 +11213,18 @@ footer {
         font-size: 20px;
         line-height: 28px;
         margin-bottom: 15px; }
-      .account .change-password form a {
-        margin-top: 0; } }
+      .account .change-password form button {
+        margin-top: 0; }
+  .account .dashboard-nav {
+    margin-bottom: 30px; }
+  .change-password,
+  .account-setting {
+    padding: 10px !important; }
+  .dashboard-nav .list-inline-item .active {
+    margin-bottom: 10px;
+    display: inline-block; }
+  .dashboard-nav .list-inline-item .active::after {
+    bottom: -3px; } }
 
 @media (max-width: 420px) {
   .account {
@@ -11164,23 +11232,31 @@ footer {
     .account-setting {
       padding: 10px 40px 20px 40px; }
       .account-setting h6 {
-        margin-top: 10px;
         margin-bottom: 15px;
         font-size: 20px;
         line-height: 28px; }
-      .account-setting form a {
-        margin-top: 0; }
     .account .change-password {
-      margin-top: 30px;
-      padding: 70px 40px 10px 40px;
-      background-color: white;
-      border-radius: 5px; }
+      margin-top: 30px; }
       .account .change-password h6 {
         font-size: 20px;
         line-height: 28px;
         margin-bottom: 15px; }
-      .account .change-password form a {
-        margin-top: 0; } }
+      .account .change-password form button {
+        margin-top: 0; }
+  .account .dashboard-nav {
+    margin-bottom: 30px; }
+  .change-password,
+  .account-setting {
+    padding: 10px !important; }
+  .dashboard-nav .list-inline-item .active {
+    margin-bottom: 10px;
+    display: inline-block; }
+  .dashboard-nav .list-inline-item .active::after {
+    bottom: -3px; }
+  .dashboard-nav .list-inline-item a {
+    margin-right: 15px;
+    margin-bottom: 10px;
+    display: inline-block; } }
 
 .product {
   padding: 100px 0; }
@@ -11973,33 +12049,6 @@ footer {
     text-align: center;
     margin-left: 0; } }
 
-.billing {
-  background-color: #EFEFEF;
-  padding: 100px 0; }
-  .billing-area {
-    padding: 45px;
-    background-color: white; }
-    .billing-area h6 {
-      margin-top: 26px;
-      color: #1A2224;
-      font-size: 24px;
-      line-height: 32px;
-      font-weight: 600;
-      margin-bottom: 20px; }
-    .billing-area form .form__div {
-      margin-bottom: 20px; }
-      .billing-area form .form__div input {
-        border: 1px solid #989BA7;
-        border-radius: 4px;
-        padding: 18px;
-        width: 100% !important; }
-      .billing-area form .form__div label {
-        cursor: pointer;
-        font-size: 14px;
-        color: #989BA7; }
-    .billing-area form a {
-      margin-top: 10px; }
-
 .forget-password {
   padding: 100px 0px;
   background-color: #EFEFEF; }
@@ -12130,4 +12179,131 @@ footer {
     margin-bottom: 25px; }
   .verify-area-email .text h5 {
     text-align: center; } }
+
+.deliver-info {
+  padding-top: 50px;
+  padding-bottom: 100px; }
+  .deliver-info .form__div {
+    margin-bottom: 30px; }
+    .deliver-info .form__div input {
+      width: 100% !important; }
+  .deliver-info-form {
+    margin-top: 100px; }
+    .deliver-info-form h6 {
+      margin-bottom: 30px;
+      color: #1A2224;
+      font-size: 24px;
+      font-weight: 600; }
+    .deliver-info-form form select {
+      width: 100%;
+      border-radius: 4px;
+      border: 1px solid #989BA7;
+      padding: 0.8rem !important; }
+      .deliver-info-form form select option {
+        color: #1A2224;
+        font-size: 16px; }
+    .deliver-info-form form button {
+      margin-top: 10px; }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .deliver-info-form {
+    margin-top: 50px; }
+  .deliver-info {
+    padding-bottom: 70px; } }
+
+@media (min-width: 575px) and (max-width: 767px) {
+  .deliver-info-form {
+    margin-top: 50px; }
+  .deliver-info {
+    padding-bottom: 70px; }
+  .deliver-info-form form select {
+    margin-bottom: 30px; } }
+
+@media only screen and (min-width: 420px) and (max-width: 574px) {
+  .deliver-info-form {
+    margin-top: 30px; }
+  .deliver-info {
+    padding-bottom: 50px; }
+  .deliver-info-form form select {
+    margin-bottom: 30px; } }
+
+@media (max-width: 420px) {
+  .deliver-info-form {
+    margin-top: 30px; }
+  .deliver-info {
+    padding-bottom: 50px; }
+  .deliver-info-form form select {
+    margin-bottom: 30px; }
+  .deliver-info-form form button {
+    margin-top: 0; } }
+
+.wishlist-area {
+  padding-top: 50px;
+  padding-bottom: 100px; }
+  .wishlist-area .dashboard-nav {
+    margin-bottom: 100px; }
+
+.cart-area {
+  padding-top: 50px;
+  padding-bottom: 100px; }
+  .cart-area .dashboard-nav {
+    margin-bottom: 100px; }
+  .cart-area .apply-coupon {
+    margin-top: 100px;
+    max-width: 559px;
+    padding: 26px;
+    border: 2px solid #EFEFEF;
+    border-radius: 4px; }
+    .cart-area .apply-coupon h6 {
+      font-size: 24px;
+      font-weight: 600;
+      color: #1A2224;
+      margin-bottom: 24px; }
+    .cart-area .apply-coupon .form__div {
+      margin-bottom: 24px; }
+      .cart-area .apply-coupon .form__div input {
+        width: 507px; }
+  .cart-area .card-price {
+    margin-top: 100px;
+    max-width: 561px;
+    margin-left: 10px; }
+    .cart-area .card-price form {
+      margin-top: 22px; }
+      .cart-area .card-price form button {
+        width: 100%; }
+
+.cart-area {
+  padding-top: 50px;
+  padding-bottom: 100px; }
+  .cart-area .dashboard-nav {
+    margin-bottom: 100px; }
+  .cart-area .apply-coupon {
+    margin-top: 100px;
+    max-width: 559px;
+    padding: 26px;
+    border: 2px solid #EFEFEF;
+    border-radius: 4px; }
+    .cart-area .apply-coupon h6 {
+      font-size: 24px;
+      font-weight: 600;
+      color: #1A2224;
+      margin-bottom: 24px; }
+    .cart-area .apply-coupon .form__div {
+      margin-bottom: 24px; }
+      .cart-area .apply-coupon .form__div input {
+        width: 507px; }
+  .cart-area .card-price {
+    margin-top: 100px;
+    max-width: 561px;
+    margin-left: 10px; }
+    .cart-area .card-price form {
+      margin-top: 22px; }
+      .cart-area .card-price form button {
+        width: 100%; }
+
+.order-area {
+  padding-top: 50px;
+  padding-bottom: 100px; }
+  .order-area .dashboard-nav {
+    margin-bottom: 100px; }
 
