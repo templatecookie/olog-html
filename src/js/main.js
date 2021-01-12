@@ -1,5 +1,6 @@
 $(document).ready(function () {
-
+    //seletor
+    $('select').niceSelect();
   //testimonial_slider
   $('.features-active').slick({
     infinite: true,
@@ -50,8 +51,10 @@ $(document).ready(function () {
     ],
   });
   
-  //seletor
-  $('select').niceSelect();
+    //Number Picker
+    $(".wan-spinner-4").WanSpinner({
+      inputWidth: 100
+    }).css("border-color", "#C0392B");
 
   //Product Details Slider
   $("#exzoom").exzoom({
@@ -68,10 +71,7 @@ $(document).ready(function () {
 
   });
 
-  //Number Picker
-  $(".wan-spinner-4").WanSpinner({
-    inputWidth: 100
-  }).css("border-color", "#C0392B");
+
 
   //Active size
   $('#sizes li').on('click', function () {

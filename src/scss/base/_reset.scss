@@ -4,10 +4,10 @@
     outline: 0;
 }
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: $font;
 	font-weight: normal;
 	font-style: normal;
-	color: #444;
+	color: $black;
 }
 
 img {
@@ -18,10 +18,6 @@ img {
 
 html {
     scroll-behavior: smooth;
-}
-
-body {
-    font-family: $font;
 }
 
 @media (min-width: 1200px) {
@@ -142,4 +138,34 @@ p {
 // Placeholder
 .bg-lightwhite{
 	background-color: #FAFAFA;
+}
+
+// large devices 992px - 1169px
+@media (min-width: 992px) and (max-width: 1200px) {
+
+}
+
+// Medium devices 768px - 991px
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+// Small devices 575px - 767px
+@media (min-width: 575px) and (max-width: 767px) {
+}
+
+// Small devices 420px - 574px
+@media only screen and (min-width: 420px) and (max-width: 574px) {
+
+}
+
+// extra Small devices 420px
+@media (max-width: 420px) {
+	*::-moz-placeholder {
+		font-size: 12px;
+	}
+	
+	*::placeholder {
+		font-size: 10px;
+	}
+
 }

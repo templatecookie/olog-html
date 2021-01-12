@@ -26,3 +26,10 @@
 .border{
     border-radius: 50px;
 }
+// extra Small devices 420px
+@media (max-width: 420px) {
+    .btn{
+        padding: 15px 30px;
+        font-size: 14px;
+    }
+}
