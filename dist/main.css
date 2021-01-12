@@ -11721,3 +11721,32 @@ footer {
   .wishlist-area .dashboard-nav {
     margin-bottom: 100px; }
 
+.cart-area {
+  padding-top: 50px;
+  padding-bottom: 100px; }
+  .cart-area .dashboard-nav {
+    margin-bottom: 100px; }
+  .cart-area .apply-coupon {
+    margin-top: 100px;
+    max-width: 559px;
+    padding: 26px;
+    border: 2px solid #EFEFEF;
+    border-radius: 4px; }
+    .cart-area .apply-coupon h6 {
+      font-size: 24px;
+      font-weight: 600;
+      color: #1A2224;
+      margin-bottom: 24px; }
+    .cart-area .apply-coupon .form__div {
+      margin-bottom: 24px; }
+      .cart-area .apply-coupon .form__div input {
+        width: 507px; }
+  .cart-area .card-price {
+    margin-top: 100px;
+    max-width: 561px;
+    margin-left: 10px; }
+    .cart-area .card-price form {
+      margin-top: 22px; }
+      .cart-area .card-price form button {
+        width: 100%; }
+
