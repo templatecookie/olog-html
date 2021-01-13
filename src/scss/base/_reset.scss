@@ -1,8 +1,9 @@
 * {
-    margin: 0;
-    padding: 0;
-    outline: 0;
+	margin: 0;
+	padding: 0;
+	outline: 0;
 }
+
 body {
 	font-family: $font;
 	font-weight: normal;
@@ -11,17 +12,22 @@ body {
 }
 
 img {
-    border: 0;
-    outline: 0;
-    max-width: 100%;
+	border: 0;
+	outline: 0;
+	max-width: 100%;
 }
 
 html {
-    scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 
 @media (min-width: 1200px) {
-	.container, .container-sm, .container-md, .container-lg, .container-xl {
+
+	.container,
+	.container-sm,
+	.container-md,
+	.container-lg,
+	.container-xl {
 		max-width: 1170px;
 	}
 }
@@ -53,9 +59,11 @@ button {
 	color: #1696e7;
 	outline: medium none;
 }
-button:focus{
+
+button:focus {
 	box-shadow: none !important;
 }
+
 button:focus,
 input:focus,
 input:focus,
@@ -63,12 +71,15 @@ textarea,
 textarea:focus {
 	outline: 0
 }
-.mt-15{
+
+.mt-15 {
 	margin-top: 15px;
 }
-.mt-30{
+
+.mt-30 {
 	margin-top: 30px;
 }
+
 h1,
 h2,
 h3,
@@ -128,42 +139,47 @@ p {
 	font-size: 14px;
 	opacity: 1;
 }
-.section-title{
+
+.section-title {
 	color: $black;
 	font-size: 40px;
 	line-height: 1.1;
 	text-align: center;
 	margin-bottom: 50px;
 }
+
 // Placeholder
-.bg-lightwhite{
+.bg-lightwhite {
 	background-color: #FAFAFA;
 }
 
-// large devices 992px - 1169px
-@media (min-width: 992px) and (max-width: 1200px) {
-
+.sticky {
+	position: fixed;
+	top: 0;
+	background-color: #FCFCFC;
+	width: 100%;
+	z-index: 1;
+	box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.05);
 }
+
+// large devices 992px - 1169px
+@media (min-width: 992px) and (max-width: 1200px) {}
 
 // Medium devices 768px - 991px
-@media (min-width: 768px) and (max-width: 991px) {
-}
+@media (min-width: 768px) and (max-width: 991px) {}
 
 // Small devices 575px - 767px
-@media (min-width: 575px) and (max-width: 767px) {
-}
+@media (min-width: 575px) and (max-width: 767px) {}
 
 // Small devices 420px - 574px
-@media only screen and (min-width: 420px) and (max-width: 574px) {
-
-}
+@media only screen and (min-width: 420px) and (max-width: 574px) {}
 
 // extra Small devices 420px
 @media (max-width: 420px) {
 	*::-moz-placeholder {
 		font-size: 12px;
 	}
-	
+
 	*::placeholder {
 		font-size: 10px;
 	}

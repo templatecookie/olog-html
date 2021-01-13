@@ -1,5 +1,4 @@
 .header {
-    display: none;
     &-top {
         background-color: #FCFCFC;
         padding: 5px 0;
@@ -105,6 +104,7 @@
         }
     }
     &-bottom{
+        transition: all 0.3s ease;
         padding: 20px 0;
         .main-menu {
             padding-left: 50px;
@@ -176,5 +176,265 @@
                 }
             }
         }
+        aside{
+            .sidenav {
+                height: 100%;
+                width: 0;
+                position: fixed;
+                z-index: 1;
+                top: 0;
+                right: 0;
+                background-color: #FCFCFC;
+                overflow-x: hidden;
+                transition: 0.5s;
+                padding-top: 70px;
+                z-index: 12;
+              }
+              .sidenav li{
+                  margin-bottom: 5px;
+                  padding: 0px 0px 0px 30px;
+              }
+              .sidenav li a {
+                color: $lightBlack;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 1.2;
+                padding: 10px 10px 10px 10px;
+                display: block;
+                transition: 0.3s;
+                border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+              }
+              
+              .sidenav li a:hover {
+                color: #f1f1f1;
+              }
+              
+              .sidenav .closebtn {
+                position: absolute;
+                top: 10px;
+                left: 33px;
+                font-size: 40px;
+                color: $black;
+              }
+              
+        }
+        .overlay{
+            background-color: rgba(0, 0, 0, 0.5);
+            height: 100%;
+            width: 100%;
+            position: fixed;
+            top: 0;
+            z-index: 11;
+            left: 0;
+            opacity: 0;
+            display: none;
+            transition: all 0.3s ease-out 0s;
+        }
+        .active{
+            opacity: 1;
+            display: block;
+        }
     }
+}
+
+// Responsive
+// large devices 992px - 1169px
+@media (min-width: 992px) and (max-width: 1200px) {
+    .header{
+        &-bottom{
+            .main-menu {
+                padding-left: 20px;
+                li {
+                  padding-right: 20px;
+                }
+            }
+            .search-bar{
+                min-width: 300px;
+                margin-left: 20px;
+                input{
+                    height: 50px;
+                    padding: 0 15px;
+                }
+            }
+        }
+    }
+
+}
+
+// Medium devices 768px - 991px
+@media (min-width: 768px) and (max-width: 991px) {
+    .header{
+        &-top {
+            &-info {
+                .email {
+                    padding-right: 18px;
+                    .text {
+                        span {
+                            font-size: 12px;
+                        }
+                    }
+                }
+    
+                .cta {
+                    padding-left: 18px;
+                    .text {
+                        span {
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+    
+            &-switcher {
+                .language {
+                    padding-right: 15px;
+                }
+    
+                .currency {
+                    padding-left: 15px;
+                }
+    
+                .language,
+                .currency {
+                    .nice-select {
+                        font-size: 12px;
+
+                    }
+                }
+    
+            }
+        }
+        &-bottom{
+            aside{
+                .search-bar{
+                    min-width: 300px;
+                    margin-left: 0;
+                    input{
+                        height: 45px;
+                    }
+                }
+                .sidenav{
+                    .search-bar{
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Small devices 575px - 767px
+@media (min-width: 575px) and (max-width: 767px) {
+    .header{
+        background-color: #FCFCFC;
+        box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.05);
+        &-top {
+            display: none;
+        }
+        &-bottom{
+            padding: 15px 0;
+            aside{
+                .search-bar{
+                    display: none;
+                }
+                .menu-icon{
+                    margin-left: auto;
+                }
+                .hamburger-menu{
+                    margin-left: 30px;
+                }
+                .sidenav{
+                    .search-bar{
+                        display: block;
+                        min-width: 300px;
+                        margin-left: 0;
+                        margin: 15px 30px;
+                        input{
+                            height: 45px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+// Small devices 420px - 574px
+@media only screen and (min-width: 420px) and (max-width: 574px) {
+    .header{
+        background-color: #FCFCFC;
+        box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.05);
+        &-top {
+            display: none;
+        }
+        &-bottom{
+            padding: 15px 0;
+            aside{
+                .search-bar{
+                    display: none;
+                }
+                .menu-icon{
+                    margin-left: auto;
+                }
+                .hamburger-menu{
+                    margin-left: 30px;
+                }
+                .sidenav{
+                    .search-bar{
+                        display: block;
+                        min-width: 300px;
+                        margin-left: 0;
+                        margin: 15px 30px;
+                        input{
+                            height: 45px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// extra Small devices 420px
+@media (max-width: 420px) {
+    .header{
+        background-color: #FCFCFC;
+        box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.05);
+        &-top {
+            display: none;
+        }
+        &-bottom{
+            padding: 15px 0;
+            aside{
+                .search-bar{
+                    display: none;
+                }
+                .menu-icon{
+                    margin-left: auto;
+                }
+                .hamburger-menu{
+                    margin-left: 30px;
+                }
+                .sidenav{
+                    .search-bar{
+                        display: block;
+                        min-width: 300px;
+                        margin-left: 0;
+                        margin: 15px 30px;
+                        input{
+                            height: 45px;
+                        }
+                    }
+                     li{
+                      a {
+                        font-size: 14px;
+                      }   
+                    } 
+                        
+                }
+            }
+        }
+    }
+   
 }
