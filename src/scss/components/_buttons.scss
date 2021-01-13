@@ -26,6 +26,21 @@
 .border{
     border-radius: 50px;
 }
+// Small devices 575px - 767px
+@media (min-width: 575px) and (max-width: 767px) {
+    .btn{
+        padding: 15px 30px;
+        font-size: 14px;
+    }
+}
+
+// Small devices 420px - 574px
+@media only screen and (min-width: 420px) and (max-width: 574px) {
+    .btn{
+        padding: 15px 30px;
+        font-size: 14px;
+    }
+}
 // extra Small devices 420px
 @media (max-width: 420px) {
     .btn{
