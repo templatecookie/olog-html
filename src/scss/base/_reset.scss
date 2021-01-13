@@ -60,7 +60,7 @@ button {
 	color: #1696e7;
 	outline: medium none;
 }
-
+.btn:focus,
 button:focus {
 	box-shadow: none !important;
 }
