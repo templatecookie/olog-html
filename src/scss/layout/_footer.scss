@@ -154,6 +154,9 @@ footer {
 
 // Small devices 575px - 767px
 @media (min-width: 575px) and (max-width: 767px) {
+    footer .newsletter-area-text h4{
+        font-size: 32px !important;
+    }
     footer {
         .newsletter-area {
             margin-bottom: 40px;
