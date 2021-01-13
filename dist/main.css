@@ -11550,7 +11550,8 @@ footer {
   .dashboard-nav .list-inline-item a {
     margin-right: 15px;
     margin-bottom: 10px;
-    display: inline-block; } }
+    display: inline-block;
+    font-size: 14px; } }
 
 .product {
   padding: 100px 0; }
