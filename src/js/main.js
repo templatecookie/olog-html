@@ -1,6 +1,17 @@
 $(document).ready(function () {
-    //seletor
-    $('select').niceSelect();
+  //seletor
+  $('select').niceSelect();
+
+  // Sticky Menu
+	$(window).on('scroll', function () {
+		var scroll = $(window).scrollTop();
+		if (scroll < 5) {
+			$(".header-bottom").removeClass("sticky");
+		} else {
+			$(".header-bottom").addClass("sticky");
+		}
+	});
+  
   //testimonial_slider
   $('.features-active').slick({
     infinite: true,
@@ -50,11 +61,13 @@ $(document).ready(function () {
       },
     ],
   });
+
   
-    //Number Picker
-    $(".wan-spinner-4").WanSpinner({
-      inputWidth: 100
-    }).css("border-color", "#C0392B");
+  //Number Picker
+  $(".wan-spinner-4").WanSpinner({
+    inputWidth: 100
+  }).css("border-color", "#C0392B");
+
 
   //Product Details Slider
   $("#exzoom").exzoom({
@@ -72,15 +85,43 @@ $(document).ready(function () {
   });
 
 
-
   //Active size
   $('#sizes li').on('click', function () {
     $(this).addClass('active').siblings().removeClass('active');
   });
 
+
   //Active color
   $('#colors li').on('click', function () {
     $(this).addClass('active').siblings().removeClass('active');
+  });
+
+
+	// sticky menu 
+  var $window = $(window);
+  var $fh = $('header')
+
+// Sticky Menu
+  $window.on('scroll', function () {
+      var $offset = $(this).scrollTop();
+      if ($offset > .5) {
+          $fh.addClass('sticky');
+      } else {
+          $fh.removeClass('sticky');
+      }
+  });
+
+
+  // scrollToTop
+  $.scrollUp({
+    scrollName: 'scrollUp', // Element ID
+    topDistance: '300', // Distance from top before showing element (px)
+    topSpeed: 300, // Speed back to top (ms)
+    animation: 'fade', // Fade, slide, none
+    animationInSpeed: 200, // Animation in speed (ms)
+    animationOutSpeed: 200, // Animation out speed (ms)
+    scrollText: '<i class="fas fa-angle-up"></i>', // Text for element
+    activeOverlay: false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
   });
 
 

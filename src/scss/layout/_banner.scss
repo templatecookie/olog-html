@@ -1,7 +1,5 @@
 .banner-area {
     &__content {
-        padding: 234px 0 204px 0;
-
         h2 {
             font-size: 58px;
             font-weight: 600;
@@ -26,16 +24,7 @@
 // /* large devices 992 - 1169*/
 @media (min-width: 992px) and (max-width: 1200px) {
     .banner-area {
-        padding-top: 100px;
-
-        .row {
-            align-items: center;
-        }
-
         &__content {
-            padding: 0;
-            margin: 0;
-
             h2 {
                 font-size: 50px;
                 line-height: 58px;
