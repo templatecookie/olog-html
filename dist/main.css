@@ -10326,39 +10326,19 @@ footer {
     text-align: center; } }
 
 .brand-area {
-  padding: 15px 0px;
-  overflow: hidden;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between; }
-  .brand-area-image {
-    margin-right: 15px;
-    margin-bottom: 20px; }
-    .brand-area-image:last-child {
-      margin-right: 0; }
-    .brand-area-image img {
-      cursor: pointer;
-      -webkit-filter: grayscale(100%);
-              filter: grayscale(100%);
-      opacity: 0.2;
-      -webkit-transition: 0.3s all linear;
-      transition: 0.3s all linear; }
-      .brand-area-image img:hover {
-        -webkit-filter: grayscale(0%);
-                filter: grayscale(0%);
-        opacity: 1; }
+  padding-top: 30px; }
+  .brand-area-image img {
+    cursor: pointer;
+    -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+    opacity: 0.2;
+    -webkit-transition: 0.3s all linear;
+    transition: 0.3s all linear;
+    margin: auto; }
+    .brand-area-image img:hover {
+      -webkit-filter: grayscale(0%);
+              filter: grayscale(0%);
+      opacity: 1; }
 
 @media (min-width: 575px) and (max-width: 767px) {
   .brand-area-image {
