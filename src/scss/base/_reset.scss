@@ -9,6 +9,7 @@ body {
 	font-weight: normal;
 	font-style: normal;
 	color: $black;
+	user-select: none;
 }
 
 img {
@@ -87,7 +88,7 @@ h4,
 h5,
 h6 {
 	color: #2c303e;
-	margin-top: 0px;
+	margin: 0px;
 	font-style: normal;
 	font-weight: 600;
 }
@@ -141,11 +142,13 @@ p {
 }
 
 .section-title {
-	color: $black;
-	font-size: 40px;
-	line-height: 1.1;
-	text-align: center;
 	margin-bottom: 50px;
+	h2{
+		color: $black;
+		font-size: 40px;
+		line-height: 1.1;
+		text-align: center;
+	}
 }
 
 // Placeholder
@@ -163,16 +166,43 @@ p {
 }
 
 // large devices 992px - 1169px
-@media (min-width: 992px) and (max-width: 1200px) {}
+@media (min-width: 992px) and (max-width: 1200px) {
+	.section-title {
+		h2{
+			font-size: 38px;
+		}
+	}
+}
 
 // Medium devices 768px - 991px
-@media (min-width: 768px) and (max-width: 991px) {}
+@media (min-width: 768px) and (max-width: 991px) {
+	.section-title {
+		margin-bottom: 45px;
+		h2{
+			font-size: 32px;
+		}
+	}
+}
 
 // Small devices 575px - 767px
-@media (min-width: 575px) and (max-width: 767px) {}
+@media (min-width: 575px) and (max-width: 767px) {
+	.section-title {
+		margin-bottom: 35px;
+		h2{
+			font-size: 28px;
+		}
+	}
+}
 
 // Small devices 420px - 574px
-@media only screen and (min-width: 420px) and (max-width: 574px) {}
+@media only screen and (min-width: 420px) and (max-width: 574px) {
+	.section-title {
+		margin-bottom: 35px;
+		h2{
+			font-size: 28px;
+		}
+	}
+}
 
 // extra Small devices 420px
 @media (max-width: 420px) {
@@ -182,6 +212,12 @@ p {
 
 	*::placeholder {
 		font-size: 10px;
+	}
+	.section-title {
+		margin-bottom: 35px;
+		h2{
+			font-size: 28px;
+		}
 	}
 
 }
