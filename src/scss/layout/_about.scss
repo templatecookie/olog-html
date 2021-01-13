@@ -71,7 +71,7 @@
 // Medium devices 768px - 991px
 @media (min-width: 768px) and (max-width: 991px) {
     .about-area-content{
-        margin-top: 50px;
+        margin-top: 00px;
         &-text{
             margin-top: 40px;
             h3{
@@ -99,8 +99,12 @@
 }
 // Small devices 575px - 767px
 @media (min-width: 575px) and (max-width: 767px) {
+    .about-area{
+        padding-bottom: 70px;
+            
+    }
     .about-area-content{
-        margin-top: 50px;
+        margin-top: 00px;
         &-text{
             margin-top: 30px;
             h3{
@@ -129,8 +133,12 @@
 }
 // Small devices 420px - 574px
 @media only screen and (min-width: 421px) and (max-width: 574px) {
+    .about-area{
+        padding-bottom: 70px;
+            
+    }
     .about-area-content{
-        margin-top: 50px;
+        margin-top: 0px;
         &-text{
             margin-top: 30px;
             h3{
@@ -158,8 +166,12 @@
 }
 // extra Small devices 420px
 @media (max-width: 420px) {
+    .about-area{
+        padding-bottom: 70px;
+            
+    }
     .about-area-content{
-        margin-top: 50px;
+        margin-top: 0px;
         &-text{
             margin-top: 30px;
             h3{
