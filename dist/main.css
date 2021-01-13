@@ -9325,7 +9325,7 @@ p {
   top: 0;
   background-color: #FCFCFC;
   width: 100%;
-  z-index: 1;
+  z-index: 99;
   -webkit-box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.05);
           box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.05); }
 
