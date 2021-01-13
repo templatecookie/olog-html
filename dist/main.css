@@ -9455,6 +9455,8 @@ footer {
     margin-bottom: 0; } }
 
 @media (min-width: 575px) and (max-width: 767px) {
+  footer .newsletter-area-text h4 {
+    font-size: 32px !important; }
   footer .newsletter-area {
     margin-bottom: 40px; }
     footer .newsletter-area-text {
@@ -11451,7 +11453,7 @@ footer {
     margin-bottom: 10px;
     display: inline-block; }
   .dashboard-nav .list-inline-item .active::after {
-    bottom: -3px; } }
+    bottom: -3px !important; } }
 
 @media (min-width: 575px) and (max-width: 767px) {
   .account {
@@ -11481,7 +11483,7 @@ footer {
     margin-bottom: 10px;
     display: inline-block; }
   .dashboard-nav .list-inline-item .active::after {
-    bottom: -3px; } }
+    bottom: -3px !important; } }
 
 @media only screen and (min-width: 420px) and (max-width: 574px) {
   .account {
@@ -11515,7 +11517,7 @@ footer {
     margin-bottom: 10px;
     display: inline-block; }
   .dashboard-nav .list-inline-item .active::after {
-    bottom: -3px; } }
+    bottom: -3px !important; } }
 
 @media (max-width: 420px) {
   .account {
@@ -12555,6 +12557,44 @@ footer {
       .cart-area .card-price form button {
         width: 100%; }
 
+@media (min-width: 768px) and (max-width: 991px) {
+  .cart-area .apply-coupon,
+  .cart-area .card-price {
+    max-width: 100%;
+    margin-right: 0;
+    margin-top: 50px; } }
+
+@media (min-width: 575px) and (max-width: 767px) {
+  .cart-area .apply-coupon,
+  .cart-area .card-price {
+    max-width: 100%;
+    margin-right: 0;
+    margin-top: 50px; } }
+
+@media only screen and (min-width: 420px) and (max-width: 574px) {
+  .cart-area .apply-coupon,
+  .cart-area .card-price {
+    max-width: 100%;
+    margin-right: 0;
+    margin-top: 50px;
+    margin-left: 0; }
+  .cart-area {
+    padding-bottom: 50px; }
+  .cart-area .dashboard-nav {
+    margin-bottom: 50px; } }
+
+@media (max-width: 420px) {
+  .cart-area .dashboard-nav {
+    margin-bottom: 30px; }
+  .cart-area {
+    padding-bottom: 50px; }
+  .cart-area .apply-coupon,
+  .cart-area .card-price {
+    max-width: 100%;
+    margin-right: 0;
+    margin-top: 50px;
+    margin-left: 0; } }
+
 .cart-area {
   padding-top: 50px;
   padding-bottom: 100px; }
@@ -12584,11 +12624,77 @@ footer {
       .cart-area .card-price form button {
         width: 100%; }
 
+@media (min-width: 768px) and (max-width: 991px) {
+  .cart-area .apply-coupon,
+  .cart-area .card-price {
+    max-width: 100%;
+    margin-right: 0;
+    margin-top: 50px; } }
+
+@media (min-width: 575px) and (max-width: 767px) {
+  .cart-area .apply-coupon,
+  .cart-area .card-price {
+    max-width: 100%;
+    margin-right: 0;
+    margin-top: 50px; } }
+
+@media only screen and (min-width: 420px) and (max-width: 574px) {
+  .cart-area .apply-coupon,
+  .cart-area .card-price {
+    max-width: 100%;
+    margin-right: 0;
+    margin-top: 50px;
+    margin-left: 0; }
+  .cart-area {
+    padding-bottom: 50px; }
+  .cart-area .dashboard-nav {
+    margin-bottom: 50px; } }
+
+@media (max-width: 420px) {
+  .cart-area .dashboard-nav {
+    margin-bottom: 30px; }
+  .cart-area {
+    padding-bottom: 50px; }
+  .cart-area .apply-coupon,
+  .cart-area .card-price {
+    max-width: 100%;
+    margin-right: 0;
+    margin-top: 50px;
+    margin-left: 0; } }
+
 .order-area {
   padding-top: 50px;
   padding-bottom: 100px; }
   .order-area .dashboard-nav {
     margin-bottom: 100px; }
+
+@media (max-width: 420px) {
+  .order-area {
+    padding-bottom: 50px; }
+  .order-area .dashboard-nav {
+    margin-bottom: 30px; } }
+
+@media only screen and (min-width: 420px) and (max-width: 574px) {
+  .order-area {
+    padding-bottom: 50px; }
+  .order-area .dashboard-nav {
+    margin-bottom: 50px; } }
+
+@media (min-width: 575px) and (max-width: 767px) {
+  .order-area {
+    padding-bottom: 50px; }
+  .order-area .dashboard-nav {
+    margin-bottom: 50px; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .order-area {
+    padding-bottom: 50px; }
+  .order-area .dashboard-nav {
+    margin-bottom: 50px; } }
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .order-area .dashboard-nav {
+    margin-bottom: 50px; } }
 
 .billing-info-area {
   padding-top: 50px;
