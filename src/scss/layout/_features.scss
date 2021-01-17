@@ -57,6 +57,10 @@
             &.bt-glass{
                 background-color: rgba(51, 90, 255, 0.04);
                 color: blue;
+                &:hover{
+                    background-color: blue;
+                    color: white;
+                }
             }
         }
     }
