@@ -58,15 +58,12 @@
                 }
             }
 
-            button {
+            .btn {
                 width: 100%;
                 padding: 15px 0px;
                 background-color: $blue;
                 font-size: 14px;
-                font-weight: 500;
-                border: none;
                 border-radius: 4px;
-                text-transform: uppercase;
 
                 &:focus {
                     background-color: $blue;
@@ -152,15 +149,12 @@
                 }
             }
 
-            button {
+            .btn {
                 width: 100%;
                 padding: 15px 0px;
                 background-color: $blue;
                 font-size: 14px;
-                font-weight: 500;
-                border: none;
                 border-radius: 4px;
-                text-transform: uppercase;
 
                 &:focus {
                     background-color: $blue;

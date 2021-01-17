@@ -52,15 +52,17 @@ $(document).ready(function () {
     prevArrow: '.features-wrapper .prev-arrow',
     nextArrow: '.features-wrapper .next-arrow',
     responsive: [{
-        breakpoint: 1024,
+        breakpoint: 1025,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 3,
+          dots: true,
         },
       },
       {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
+          dots: true,
         },
       },
     ],

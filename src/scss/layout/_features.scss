@@ -2,6 +2,26 @@
     padding: 100px 0;
     &-wrapper{
         position: relative;
+        .slick-dots{
+            margin-top: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            li{
+                width: 10px;
+                height: 10px;
+                border-radius: 100%;
+                background-color: $lightBlack;
+                margin: 0 10px;
+                button{
+                    font-size: 0;
+                    border: 0;
+                }
+                &.slick-active{
+                    background-color: $black;
+                }
+            }
+        }
        .slider-arrows{
            display: flex;
            justify-content: space-between;
@@ -69,9 +89,15 @@
 @media (min-width: 992px) and (max-width: 1200px) {
     .features{
         &-wrapper{
+            .slick-dots{
+                margin-top: 30px;
+            }
            .slider-arrows{
             display: none;
            } 
+        }
+        &-morebutton{
+            margin-top: 40px;
         }
     }
 }
@@ -80,9 +106,15 @@
 @media (min-width: 768px) and (max-width: 991px) {
     .features{
         &-wrapper{
+            .slick-dots{
+                margin-top: 30px;
+            }
            .slider-arrows{
             display: none;
            } 
+        }
+        &-morebutton{
+            margin-top: 30px;
         }
     }
 }
@@ -91,6 +123,9 @@
     .features{
         padding: 70px 0;
         &-wrapper{
+            .slick-dots{
+                margin-top: 20px;
+            }
            .slider-arrows{
             display: none;
            }
@@ -101,6 +136,9 @@
             margin: 0 -10px;
         }
         }
+        &-morebutton{
+            margin-top: 30px;
+        }
     }
 }
 
@@ -110,6 +148,9 @@
     .features{
         padding: 70px 0;
         &-wrapper{
+            .slick-dots{
+                margin-top: 20px;
+            }
            .slider-arrows{
             display: none;
            }
@@ -118,6 +159,9 @@
                    margin: auto;
                }
            }
+        }
+        &-morebutton{
+            margin-top: 30px;
         }
         .slick-slide {
             margin: 0 10px;
@@ -132,6 +176,9 @@
     .features{
         padding: 70px 0;
         &-wrapper{
+            .slick-dots{
+                margin-top: 20px;
+            }
            .slider-arrows{
             display: none;
            }
@@ -141,6 +188,9 @@
         .slick-list {
             margin: 0 -10px;
         }
+        }
+        &-morebutton{
+            margin-top: 30px;
         }
     }
 }

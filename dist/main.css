@@ -9438,6 +9438,9 @@ footer {
     footer .newsletter-area-text {
       text-align: center;
       margin-bottom: 30px; }
+    footer .newsletter-area-button .form {
+      width: 70%;
+      margin: auto; }
   footer .newsletter-area-button .form input {
     padding: 25px 0px 25px 25px; }
   footer .newsletter-area-button .form button {
@@ -10043,6 +10046,31 @@ footer {
   padding: 100px 0; }
   .features-wrapper {
     position: relative; }
+    .features-wrapper .slick-dots {
+      margin-top: 40px;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      .features-wrapper .slick-dots li {
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+        background-color: #989BA7;
+        margin: 0 10px; }
+        .features-wrapper .slick-dots li button {
+          font-size: 0;
+          border: 0; }
+        .features-wrapper .slick-dots li.slick-active {
+          background-color: #1A2224; }
     .features-wrapper .slider-arrows {
       display: -webkit-box;
       display: -webkit-flex;
@@ -10115,33 +10143,49 @@ footer {
 
 /* large devices 992 - 1169*/
 @media (min-width: 992px) and (max-width: 1200px) {
+  .features-wrapper .slick-dots {
+    margin-top: 30px; }
   .features-wrapper .slider-arrows {
-    display: none; } }
+    display: none; }
+  .features-morebutton {
+    margin-top: 40px; } }
 
 /* Medium devices 768 - 991 */
 @media (min-width: 768px) and (max-width: 991px) {
+  .features-wrapper .slick-dots {
+    margin-top: 30px; }
   .features-wrapper .slider-arrows {
-    display: none; } }
+    display: none; }
+  .features-morebutton {
+    margin-top: 30px; } }
 
 /* Small devices 575 - 767 */
 @media (min-width: 575px) and (max-width: 767px) {
   .features {
     padding: 70px 0; }
+    .features-wrapper .slick-dots {
+      margin-top: 20px; }
     .features-wrapper .slider-arrows {
       display: none; }
     .features-wrapper .slick-slide {
       margin: 0 10px; }
     .features-wrapper .slick-list {
-      margin: 0 -10px; } }
+      margin: 0 -10px; }
+    .features-morebutton {
+      margin-top: 30px; } }
 
 /* Small devices 420 - 574 */
 @media only screen and (min-width: 420px) and (max-width: 575px) {
   .features {
     padding: 70px 0; }
+    .features-wrapper .slick-dots {
+      margin-top: 20px; }
     .features-wrapper .slider-arrows {
       display: none; }
     .features-wrapper .product-item-image img {
       margin: auto; }
+    .features-morebutton {
+      margin-top: 30px; }
     .features .slick-slide {
       margin: 0 10px; }
     .features .slick-list {
@@ -10151,12 +10195,16 @@ footer {
 @media (max-width: 420px) {
   .features {
     padding: 70px 0; }
+    .features-wrapper .slick-dots {
+      margin-top: 20px; }
     .features-wrapper .slider-arrows {
       display: none; }
     .features-wrapper .slick-slide {
       margin: 0 10px; }
     .features-wrapper .slick-list {
-      margin: 0 -10px; } }
+      margin: 0 -10px; }
+    .features-morebutton {
+      margin-top: 30px; } }
 
 .about-area {
   padding-bottom: 100px; }
@@ -12149,16 +12197,13 @@ footer {
       .account-sign-in form .password-info-right a {
         color: #1A2224;
         font-size: 14px; }
-    .account-sign-in form button {
+    .account-sign-in form .btn {
       width: 100%;
       padding: 15px 0px;
       background-color: #335AFF;
       font-size: 14px;
-      font-weight: 500;
-      border: none;
-      border-radius: 4px;
-      text-transform: uppercase; }
-      .account-sign-in form button:focus {
+      border-radius: 4px; }
+      .account-sign-in form .btn:focus {
         background-color: #335AFF;
         border: none;
         -webkit-box-shadow: none;
@@ -12231,16 +12276,13 @@ footer {
         cursor: pointer;
         font-size: 14px;
         color: #989BA7; }
-    .account-sign-up form button {
+    .account-sign-up form .btn {
       width: 100%;
       padding: 15px 0px;
       background-color: #335AFF;
       font-size: 14px;
-      font-weight: 500;
-      border: none;
-      border-radius: 4px;
-      text-transform: uppercase; }
-      .account-sign-up form button:focus {
+      border-radius: 4px; }
+      .account-sign-up form .btn:focus {
         background-color: #335AFF;
         border: none;
         -webkit-box-shadow: none;
