@@ -9189,11 +9189,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #1A2224;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none; }
+  color: #1A2224; }
 
 img {
   border: 0;
@@ -9732,11 +9728,11 @@ footer {
       padding-left: 20px;
       cursor: pointer;
       position: relative; }
-      .header-bottom .menu-icon ul li.heart::before, .header-bottom .menu-icon ul li.cart::before {
-        content: "3";
+      .header-bottom .menu-icon ul li .heart,
+      .header-bottom .menu-icon ul li .cart {
+        position: absolute;
         font-size: 10px;
         color: white;
-        position: absolute;
         top: -4px;
         right: -8px;
         background-color: #335AFF;
@@ -10113,6 +10109,9 @@ footer {
       .features-morebutton .btn.bt-glass {
         background-color: rgba(51, 90, 255, 0.04);
         color: blue; }
+        .features-morebutton .btn.bt-glass:hover {
+          background-color: blue;
+          color: white; }
 
 /* large devices 992 - 1169*/
 @media (min-width: 992px) and (max-width: 1200px) {
