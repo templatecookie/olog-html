@@ -9380,7 +9380,8 @@ footer {
       font-weight: 400;
       line-height: 24px; }
     footer .newsletter-area-button .form {
-      position: relative; }
+      position: relative;
+      margin-right: -15px; }
       footer .newsletter-area-button .form input {
         color: #ffffff;
         padding: 30px 0px 30px 30px;
@@ -9416,7 +9417,7 @@ footer {
       margin-top: 24px; }
       footer .main-footer-quicklinks .quicklink li a {
         margin-bottom: 10px;
-        display: inline-block;
+        display: block;
         color: #989BA7;
         font-size: 14px;
         font-weight: 400; }
@@ -9426,7 +9427,8 @@ footer {
       color: #989BA7;
       font-size: 14px; }
       footer .copyright-text p a {
-        color: #ffffff; }
+        color: #ffffff;
+        font-weight: 600; }
     footer .copyright-links a {
       color: #ffffff;
       font-weight: 600;
@@ -9440,7 +9442,8 @@ footer {
       margin-bottom: 30px; }
     footer .newsletter-area-button .form {
       width: 70%;
-      margin: auto; }
+      margin: auto;
+      margin-right: 0px; }
   footer .newsletter-area-button .form input {
     padding: 25px 0px 25px 25px; }
   footer .newsletter-area-button .form button {
@@ -9480,7 +9483,9 @@ footer {
     margin-bottom: 25px;
     font-size: 14px; }
   footer footer .copyright-text p {
-    margin-bottom: 0; } }
+    margin-bottom: 0; }
+  footer .newsletter-area-button .form {
+    margin-right: 0; } }
 
 @media only screen and (min-width: 420px) and (max-width: 574px) {
   footer {
@@ -9517,7 +9522,9 @@ footer {
   footer .copyright {
     -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
-            flex-wrap: wrap; } }
+            flex-wrap: wrap; }
+  footer .newsletter-area-button .form {
+    margin-right: 0; } }
 
 @media (max-width: 420px) {
   footer {
@@ -9558,7 +9565,9 @@ footer {
   footer .copyright {
     -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
-            flex-wrap: wrap; } }
+            flex-wrap: wrap; }
+  footer .newsletter-area-button .form {
+    margin-right: 0; } }
 
 .header-top {
   background-color: #FCFCFC;
@@ -10466,7 +10475,7 @@ footer {
   width: 450px;
   height: 48px;
   font-size: 14px;
-  border: 1px solid #989BA7;
+  border: 1px solid rgba(152, 155, 167, 0.5) !important;
   border-radius: 4px;
   outline: none;
   padding: 1rem;
@@ -12268,7 +12277,16 @@ footer {
           border: 1px solid #EFEFEF;
           color: #989BA7;
           padding: 12px 18px;
-          border-radius: 3px; }
+          border-radius: 3px;
+          width: 120px;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+          -webkit-align-items: center;
+              -ms-flex-align: center;
+                  align-items: center; }
           .account-sign-in .social-signing-link a svg {
             margin-right: 5px; }
   .account-sign-up {
@@ -12326,7 +12344,11 @@ footer {
     width: 100%;
     margin-bottom: 20px;
     text-align: center;
-    margin-left: 0; }
+    margin-left: 0;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
   .account-sign-in {
     margin-right: 0; }
   .account-sign-up {
@@ -12355,7 +12377,11 @@ footer {
     width: 100%;
     margin-bottom: 20px;
     text-align: center;
-    margin-left: 0; } }
+    margin-left: 0;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; } }
 
 @media only screen and (min-width: 420px) and (max-width: 574px) {
   .account-sign {
@@ -12372,7 +12398,11 @@ footer {
     width: 100%;
     margin-bottom: 20px;
     text-align: center;
-    margin-left: 0; } }
+    margin-left: 0;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; } }
 
 @media (max-width: 420px) {
   .account-sign {
@@ -12401,7 +12431,11 @@ footer {
     width: 100%;
     margin-bottom: 20px;
     text-align: center;
-    margin-left: 0; } }
+    margin-left: 0;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; } }
 
 .forget-password {
   padding: 100px 0px;
@@ -12413,9 +12447,12 @@ footer {
       margin-bottom: 30px; }
     .forget-password .account-sign-in .social-signing {
       margin-bottom: 30px; }
-    .forget-password .account-sign-in .ask-signup a {
-      color: #1A2224;
-      font-size: 16px; }
+    .forget-password .account-sign-in .ask-signup {
+      padding-top: 18px;
+      border-top: 1px solid #EFEFEF; }
+      .forget-password .account-sign-in .ask-signup a {
+        color: #1A2224;
+        font-size: 16px; }
   .forget-password .password-info-show {
     margin-top: 12px;
     margin-bottom: 32px;
@@ -12450,7 +12487,10 @@ footer {
   .forget-password {
     padding: 30px 0px; }
     .forget-password .modi-sm {
-      font-size: 30px; } }
+      font-size: 30px; }
+  .copyright-text,
+  .copyright-links {
+    margin: auto; } }
 
 .verify-area {
   padding: 100px 0px;
