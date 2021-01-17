@@ -9326,6 +9326,9 @@ p {
   -webkit-box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.05);
           box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.05); }
 
+.nice-select {
+  width: 100% !important; }
+
 @media (min-width: 992px) and (max-width: 1200px) {
   .section-title h2 {
     font-size: 38px; } }
@@ -12938,7 +12941,9 @@ footer {
     margin-bottom: 20px;
     font-size: 20px; }
   .billing-info-area .bottom a {
-    margin-bottom: 15px; } }
+    margin-bottom: 15px; }
+  .billing-info-area .payment-method-area .payment-method {
+    margin-bottom: 0; } }
 
 .shipping-area {
   padding-top: 50px;
