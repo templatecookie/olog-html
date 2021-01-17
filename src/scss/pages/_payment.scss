@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .payment-area {
     padding-top: 50px;
     padding-bottom: 100px;
@@ -86,8 +85,11 @@
             align-items: center;
 
             .methods {
+                display: flex;
+                align-items: center;
+                flex-direction: column;
                 .input {
-                    margin-bottom: 16px;
+                    margin-bottom: 0;
                     text-align: center;
 
                     input {
@@ -233,317 +235,10 @@
         margin-bottom: 50px;
     }
 
-=======
-.payment{
-    padding-top: 100px 0;
-    // .shipping-info-form-text{    
-    //         h6 {
-    //             font-size: 24px;
-    //             font-weight: 600;
-    //             color: $black;
-    //             margin-bottom: 20px;
-    //         }
-    //     .shipping-info {
-    //         margin-bottom: 16px;
-    //         display: flex;
-    //         align-content: flex-start;
-    //         align-items: flex-start;
-    //         justify-content: space-between;
-    //         flex-wrap: wrap;
-
-    //         .shipping-info-text .right.mar-5 {
-    //             margin-left: 6px;
-    //         }
-
-    //         &-text {
-    //             display: flex;
-    //             align-content: flex-start;
-
-    //             .left {
-    //                 margin-right: 45px;
-
-    //                 span {
-    //                     font-size: 14px;
-    //                     font-weight: 400;
-    //                     color: $lightBlack;
-    //                 }
-    //             }
-
-    //             .right {
-    //                 p {
-    //                     font-size: 16px;
-    //                     font-weight: 400;
-    //                     color: $black;
-    //                     margin-bottom: 5px;
-    //                 }
-    //             }
-    //         }
-
-    //         &-button {
-    //             button {
-    //                 border: none !important;
-    //                 background-color: transparent;
-    //                 color: $lightBlack;
-    //                 font-size: 14px;
-    //                 font-weight: 500;
-    //             }
-    //         }
-    //     }
-
-    //     .mod {
-    //         padding-top: 16px;
-    //         border-top: 1px solid $gray;
-    //     }
-    // }
-    // display: none;
-    .information-area{
-        padding-bottom: 50px;
-        margin-top: 100px;
-        &-content{
-            h6{
-                font-size: 24px;
-                line-height: 32px;
-                font-weight: 600;
-                color: $black;
-                margin-bottom: 24px;
-            }
-         & .content{
-              display: flex;
-              justify-content: space-between;
-              align-items: center;
-              margin-bottom: 32px;
-                span{
-                  font-size: 14px;
-                  line-height: 22px;
-                  color: $lightBlack;
-                  margin-right: 10px;
-                }
-                p{
-                    font-size: 16px;
-                    color: $black;
-                   
-                }
-                span:last-child {
-                   font-size: 14px;
-                   font-weight: 500;
-                   color: $lightBlack;
-                   margin-left: 10px;
-                }
-            }
-            .information-area-ship-method{
-                margin-bottom: 0;
-            }
-        }
-    }
-    .card-price{
-        margin-top: 100px;
-    }
-form{
-    // border: 1px solid $lightBlack;
-    // border-radius: 5px;
-    margin-bottom: 5px;
-    padding: 5px;
-    margin-top: 50px;
-  .express-text-area{
-      border: 1px solid $lightBlack;
-      border-radius: 4px;
-      .express-text{
-          text-align: center;
-          align-items: center;
-          h6{
-              font-size: 24px;
-              font-weight: 600;
-              color: $black;
-          }
-      }
-      .express-brand{
-          margin: 30px;
-        
-          display: flex;
-          .brand-img{
-              margin-right: 5px;
-              opacity: 0.5;
-              &.active {
-                  opacity: 1;
-              }
-              .input{
-                  margin-bottom: 8px;
-                  text-align: center;
-                  input{
-                    width: 24px;
-                    height: 24px;
-                    text-align: center;
-                  }
-              }
-              label {
-                  border: 1px solid $gray;
-                  border-radius: 4px;
-                  padding: 12px 20px;
-              }
-          }
-      }
-  }
-  .credit-card-content{
-      border: 1px solid $lightBlack;
-      border-radius: 4px;
-      margin-top: 50px;
-      padding: 24px;
-  .credit-card-area{
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 20px;
-      .credit-card-text{
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          margin-left: 24px;
-          margin-left: 0;
-          .heading{
-              font-size: 24px;
-              line-height: 32px;
-              color: $black;
-              font-weight: 600;
-          }
-          .input{
-              margin-right: 8px;
-              input{
-                width: 24px;
-                height: 24px;
-              }
-          }
-          h6{
-              font-size: 24px;
-              font-weight: 600;
-              color: $black;
-          }
-      }
-      .credit-card-brand{
-          display: flex;
-          .credit-card-master{
-              margin-right: 2px;
-              a{
-                border: 1px solid $gray;
-                border-radius: 4px;
-                padding: 10px 18px; 
-              }
-          }
-          .credit-card-visa{
-              margin-right: 4px;
-              a{
-                border: 1px solid $gray;
-                border-radius: 4px;
-                padding: 4px 18px; 
-              }
-          }
-          span{
-              font-size: 10px;
-              color: $lightBlack;
-          }
-      }
-  }
-}
-    // form{
-    //   margin: 0 24px 4px 24px;
-    //         .form__div{
-    //             margin-bottom: 20px;
-    //             .form__input {
-    //                 width: 100%;
-    //                 height: 48px;
-    //              }
-    //         }  
-    //  }
-    .deliver-text{
-        display: flex;
-        margin-top: 50px;
-        padding: 24px 0 24px 24px;
-        padding-left: 0;
-        border: 1px solid $lightBlack;
-        border-radius: 4px;
-       padding`-left: 24px;
-        input{
-            width: 24px;
-            height: 24px;
-            color: $lightBlack;
-            margin-right: 8px;
-        }
-        h6{
-            font-size: 24px;
-            font-weight: 600;
-            color: $black;
-        }           
-   }
-   .checkout-text{
-       margin-top: 17px;
-       input{
-           margin-right: 6px;
-           width: 15px;
-           height: 15px;
-       }
-       label {
-           font-size: 14px;
-           line-height: 18px;
-           color:$lightBlack ;
-           user-select: none;
-       }
-   }
-   .pay-button-area{
-       margin-top: 50px;
-       margin-bottom: 100px;
-       display: flex;
-       justify-content: space-between;
-       align-items: center;
-       .icon-text{
-           margin: 20px 0;
-           display: flex;
-           justify-content: center;
-           align-items: center;
-         i{
-             margin-right: 16px;
-         }
-         p{
-             font-size: 16px;
-             line-height: 24px;
-             color: $black;
-         }  
-       }
-   }
-}
-}
-
-// large devices 992px - 1169px
-@media (min-width: 992px) and (max-width: 1200px) {
-
-}
-
-// Medium devices 768px - 991px
-@media (min-width: 768px) and (max-width: 991px) {
-    .breadcrumb-area {
-        padding: 30px 0px;
-        background-color: #FAFAFA;
-    }
-    .payment {
-        padding-top: 30px;
-        &.information-area {
-            padding-bottom: 30px;
-        }
-        .deliver-text{
-            margin-top: 0;
-            padding: 24px 0 0px 24px;
-        }
-        .pay-button-area{
-            margin-top: 15px;
-            margin-bottom: 40px;
-        }
-    }
-    
-    
->>>>>>> bc8165ba92d4822f9c16d2340a7f6b751e477675
 }
 
 // Small devices 575px - 767px
 @media (min-width: 575px) and (max-width: 767px) {
-<<<<<<< HEAD
     .payment-area .dashboard-nav {
         margin-bottom: 50px;
     }
@@ -576,31 +271,11 @@ form{
 
     .payment-area {
         padding-bottom: 30px;
-=======
-    .breadcrumb-area {
-        padding: 30px 0px;
-        background-color: #FAFAFA;
-    }
-    .payment {
-        padding-top: 30px;
-        &.information-area {
-            padding-bottom: 30px;
-        }
-        .deliver-text{
-            margin-top: 0;
-            padding: 24px 0 0px 24px;
-        }
-        .pay-button-area{
-            margin-top: 15px;
-            margin-bottom: 40px;
-        }
->>>>>>> bc8165ba92d4822f9c16d2340a7f6b751e477675
     }
 }
 
 // Small devices 420px - 574px
 @media only screen and (min-width: 420px) and (max-width: 574px) {
-<<<<<<< HEAD
     .payment-area .dashboard-nav {
         margin-bottom: 30px;
     }
@@ -638,14 +313,10 @@ form{
     .shipping-info-text .right {
         margin-left: 0;
     }
-=======
-    
->>>>>>> bc8165ba92d4822f9c16d2340a7f6b751e477675
 }
 
 // extra Small devices 420px
 @media (max-width: 420px) {
-<<<<<<< HEAD
     .payment-area .dashboard-nav {
         margin-bottom: 30px;
     }
@@ -702,7 +373,3 @@ form{
         height: 35px;
     }
 }
-=======
-   
-}
->>>>>>> bc8165ba92d4822f9c16d2340a7f6b751e477675
