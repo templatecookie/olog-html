@@ -9468,6 +9468,8 @@ footer {
       footer .newsletter-area-text p {
         font-size: 14px;
         text-align: left; }
+  footer .main-footer-quicklinks {
+    margin-top: 30px; }
   footer footer .newsletter-area-text h4 {
     font-size: 28px;
     line-height: 36px; }
@@ -9501,6 +9503,8 @@ footer {
   footer .newsletter-area-text h4 {
     font-size: 26px;
     line-height: 32px; }
+  .main-footer-quicklinks {
+    margin-bottom: 30px; }
   footer .main-footer-quicklinks .quicklink {
     margin-top: 15px; }
   footer .newsletter-area-button .form input {
