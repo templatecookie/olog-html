@@ -10038,16 +10038,22 @@ footer {
     padding: 25px 0px; }
     .breadcrumb-area .breadcrumb {
       margin-bottom: 0;
-      padding-right: 0; }
+      padding-right: 0;
+      padding-bottom: 0; }
       .breadcrumb-area .breadcrumb-item {
-        margin-bottom: 10px; } }
+        margin-bottom: 10px; }
+  .dashboard-nav {
+    margin-bottom: 30px !important; } }
 
 @media (max-width: 420px) {
+  .dashboard-nav {
+    margin-bottom: 30px !important; }
   .breadcrumb-area {
     padding: 25px 0px; }
     .breadcrumb-area .breadcrumb {
       margin-bottom: 0;
-      padding-right: 0; }
+      padding-right: 0;
+      padding-bottom: 0; }
       .breadcrumb-area .breadcrumb-item {
         margin-bottom: 10px;
         padding-left: 0;
