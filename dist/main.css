@@ -12397,7 +12397,8 @@ footer {
     margin-bottom: 40px;
     padding: 30px 15px; }
   .account-sign-up {
-    margin-left: 0; }
+    margin-left: 0;
+    padding: 30px 15px; }
   .account-sign-in .social-signing-link a {
     width: 100%;
     margin-bottom: 20px;
