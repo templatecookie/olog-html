@@ -263,19 +263,26 @@
 @media (max-width: 420px) {
     .account-sign {
         padding: 10px;
-        padding-bottom: 30px;
+        padding-bottom: 55px;
         padding-top: 30px;
     }
-
+    .account-sign-up h5, 
+    .account-sign-in h5{
+        margin-bottom: 20px;
+    }
     .account-sign-in {
         margin-right: 0;
         margin-bottom: 40px;
-        padding: 20px 15px;
+        padding: 24px 15px;
+        .form__div{
+            margin-bottom: 16px !important;
+        }
     }
 
     .account-sign-in form .password-info {
         flex-direction: column;
         align-content: flex-start;
+        margin-bottom: 15px;
     }
 
     .account-sign-in form .password-info-left {
@@ -284,15 +291,21 @@
 
     .account-sign-up {
         margin-left: 0;
-        padding: 20px 15px;
+        padding: 24px 15px;
+        .form__div{
+            margin-bottom: 16px !important;
+        }
     }
 
     .account-sign-in .social-signing-link a {
         width: 100%;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         text-align: center;
         margin-left: 0;
         justify-content: center;
+    }
+    .account-sign-in .social-signing{
+        margin-top: 20px;
     }
 
 }

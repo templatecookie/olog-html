@@ -12421,12 +12421,17 @@ footer {
 @media (max-width: 420px) {
   .account-sign {
     padding: 10px;
-    padding-bottom: 30px;
+    padding-bottom: 55px;
     padding-top: 30px; }
+  .account-sign-up h5,
+  .account-sign-in h5 {
+    margin-bottom: 20px; }
   .account-sign-in {
     margin-right: 0;
     margin-bottom: 40px;
-    padding: 20px 15px; }
+    padding: 24px 15px; }
+    .account-sign-in .form__div {
+      margin-bottom: 16px !important; }
   .account-sign-in form .password-info {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -12435,21 +12440,26 @@ footer {
             flex-direction: column;
     -webkit-align-content: flex-start;
         -ms-flex-line-pack: start;
-            align-content: flex-start; }
+            align-content: flex-start;
+    margin-bottom: 15px; }
   .account-sign-in form .password-info-left {
     margin-bottom: 6px; }
   .account-sign-up {
     margin-left: 0;
-    padding: 20px 15px; }
+    padding: 24px 15px; }
+    .account-sign-up .form__div {
+      margin-bottom: 16px !important; }
   .account-sign-in .social-signing-link a {
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     text-align: center;
     margin-left: 0;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
         -ms-flex-pack: center;
-            justify-content: center; } }
+            justify-content: center; }
+  .account-sign-in .social-signing {
+    margin-top: 20px; } }
 
 .forget-password {
   padding: 100px 0px;
@@ -12499,7 +12509,8 @@ footer {
 
 @media (max-width: 420px) {
   .forget-password {
-    padding: 30px 0px; }
+    padding: 30px 0px;
+    padding-bottom: 55px; }
     .forget-password .modi-sm {
       font-size: 30px; }
   .copyright-text,
@@ -12573,7 +12584,8 @@ footer {
 
 @media (max-width: 420px) {
   .verify-area {
-    padding: 30px 0px; }
+    padding: 30px 0px;
+    padding-bottom: 55px; }
   .verify-area-email {
     padding: 20px; }
   .verify-area-email .verify-input {
