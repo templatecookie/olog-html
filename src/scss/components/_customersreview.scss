@@ -2,6 +2,26 @@
     padding-bottom: 100px;
     &-wrapper{
         position: relative;
+        .slick-dots{
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            li{
+                width: 10px;
+                height: 10px;
+                border-radius: 100%;
+                background-color: $lightBlack;
+                margin: 0 10px;
+                button{
+                    font-size: 0;
+                    border: 0;
+                }
+                &.slick-active{
+                    background-color: $black;
+                }
+            }
+        }
         .slider-arrows{
             display: flex;
             justify-content: space-between;
@@ -79,6 +99,7 @@
 /* large devices 992 - 1169*/
 @media (min-width: 992px) and (max-width: 1200px) {
     .customersreview{
+        padding-bottom: 70px;
         &-active{
             padding: 0 70px;
         }
@@ -107,6 +128,7 @@
 /* Medium devices 768 - 991 */
 @media (min-width: 768px) and (max-width: 991px) {
     .customersreview{
+        padding-bottom: 50px;
         &-active{
             padding: 0 50px;
         }
@@ -141,6 +163,7 @@
 /* Small devices 575 - 767 */
 @media (min-width: 575px) and (max-width: 767px) {
     .customersreview{
+        padding-bottom: 50px;
         &-wrapper{
             .slider-arrows{
                 display: none;
@@ -173,6 +196,7 @@
 /* Small devices 420 - 574 */
 @media only screen and (min-width: 420px) and (max-width: 575px) {
     .customersreview{
+        padding-bottom: 50px;
         &-wrapper{
             .slider-arrows{
                 display: none;
