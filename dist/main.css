@@ -10013,7 +10013,7 @@ footer {
   background-color: #FAFAFA; }
   .breadcrumb-area .breadcrumb {
     padding-left: 0;
-    margin-bottom: 10px;
+    margin-bottom: -6px;
     background-color: transparent; }
     .breadcrumb-area .breadcrumb .active {
       color: #335AFF; }
