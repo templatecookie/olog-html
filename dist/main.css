@@ -9189,11 +9189,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #1A2224;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none; }
+  color: #1A2224; }
 
 img {
   border: 0;
@@ -13029,4 +13025,285 @@ footer {
   .shipping-area .shipping-info-form .form form .select-button .button-area .radio-button input {
     width: 20px;
     height: 20px; } }
+
+.payment-area {
+  padding-top: 50px;
+  padding-bottom: 100px; }
+  .payment-area .dashboard-nav {
+    margin-bottom: 100px;
+    display: inline-block; }
+  .payment-area .shipping-info-form-text h6 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #1A2224;
+    margin-bottom: 20px; }
+  .payment-area .shipping-info-form .shipping-info {
+    margin-bottom: 16px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-content: flex-start;
+        -ms-flex-line-pack: start;
+            align-content: flex-start;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
+    .payment-area .shipping-info-form .shipping-info .shipping-info-text .right.mar-5 {
+      margin-left: 6px; }
+    .payment-area .shipping-info-form .shipping-info-text {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-align-content: flex-start;
+          -ms-flex-line-pack: start;
+              align-content: flex-start; }
+      .payment-area .shipping-info-form .shipping-info-text .left {
+        margin-right: 45px; }
+        .payment-area .shipping-info-form .shipping-info-text .left span {
+          font-size: 14px;
+          font-weight: 400;
+          color: #989BA7; }
+      .payment-area .shipping-info-form .shipping-info-text .right p {
+        font-size: 16px;
+        font-weight: 400;
+        color: #1A2224;
+        margin-bottom: 5px; }
+    .payment-area .shipping-info-form .shipping-info-button button {
+      border: none !important;
+      background-color: transparent;
+      color: #989BA7;
+      font-size: 14px;
+      font-weight: 500; }
+  .payment-area .shipping-info-form .mod {
+    padding-top: 16px;
+    border-top: 1px solid #EFEFEF; }
+  .payment-area .card-price {
+    margin-left: 20px; }
+  .payment-area-payment {
+    margin-top: 30px; }
+    .payment-area-payment .payment-methods {
+      margin-top: 30px;
+      margin-bottom: 50px;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      .payment-area-payment .payment-methods .methods .input {
+        margin-bottom: 16px;
+        text-align: center; }
+        .payment-area-payment .payment-methods .methods .input input {
+          width: 24px;
+          height: 24px;
+          cursor: pointer; }
+      .payment-area-payment .payment-methods .methods a {
+        padding: 12px 20px;
+        border: 1px solid #EFEFEF;
+        border-radius: 2px; }
+        .payment-area-payment .payment-methods .methods a svg {
+          opacity: 0.5; }
+      .payment-area-payment .payment-methods .methods .active svg {
+        opacity: 1; }
+    .payment-area-payment .payment-info {
+      padding: 25px;
+      border: 1px solid #EFEFEF;
+      border-radius: 4px; }
+      .payment-area-payment .payment-info .form__div {
+        margin-bottom: 20px; }
+    .payment-area-payment .on-delivery {
+      margin-top: 50px;
+      margin-bottom: 15px;
+      padding: 25px;
+      border: 1px solid #EFEFEF;
+      border-radius: 4px;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      .payment-area-payment .on-delivery input {
+        width: 24px;
+        height: 24px;
+        margin-right: 8px; }
+      .payment-area-payment .on-delivery label {
+        margin-bottom: 0 !important;
+        cursor: pointer;
+        font-size: 24px;
+        font-weight: 600;
+        color: #1A2224; }
+    .payment-area-payment .save-info {
+      margin-bottom: 50px;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      .payment-area-payment .save-info input {
+        width: 15px;
+        height: 15px;
+        margin-right: 6px; }
+      .payment-area-payment .save-info label {
+        color: #989BA7;
+        font-size: 14px;
+        margin-bottom: 0 !important;
+        cursor: pointer; }
+    .payment-area-payment .bottom a {
+      color: #1A2224;
+      font-size: 16px;
+      font-weight: 500; }
+  .payment-area-info {
+    margin-bottom: 30px; }
+    .payment-area-info .credit-card-option {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      .payment-area-info .credit-card-option input {
+        width: 24px;
+        height: 24px;
+        margin-right: 8px; }
+      .payment-area-info .credit-card-option label {
+        font-size: 24px;
+        line-height: 32px;
+        color: #1A2224;
+        font-weight: 600;
+        cursor: pointer;
+        margin: 0 !important; }
+    .payment-area-info .credit-card {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      .payment-area-info .credit-card a {
+        margin-right: 5px;
+        border: 1px solid #EFEFEF;
+        border-radius: 2px;
+        padding: 3px 10px; }
+      .payment-area-info .credit-card p {
+        font-size: 10px; }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .payment-area .dashboard-nav {
+    margin-bottom: 50px; }
+  .payment-area .card-price {
+    margin-left: 0;
+    margin-bottom: 50px; } }
+
+@media (min-width: 575px) and (max-width: 767px) {
+  .payment-area .dashboard-nav {
+    margin-bottom: 50px; }
+  .payment-area .card-price {
+    margin-left: 0;
+    margin-bottom: 50px; }
+  .payment-area-payment .payment-methods {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
+  .payment-methods .methods {
+    margin-right: 10px;
+    margin-top: 30px; }
+  .payment-area-info .credit-card-option {
+    margin-bottom: 10px; }
+  .payment-area-payment .on-delivery {
+    margin-top: 30px; }
+  .payment-area-payment .save-info {
+    margin-bottom: 30px; }
+  .payment-area {
+    padding-bottom: 30px; } }
+
+@media only screen and (min-width: 420px) and (max-width: 574px) {
+  .payment-area .dashboard-nav {
+    margin-bottom: 30px; }
+  .payment-area .card-price {
+    margin-left: 0;
+    margin-bottom: 30px; }
+  .payment-area-payment .payment-methods {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
+  .payment-methods .methods {
+    margin-right: 10px;
+    margin-top: 30px; }
+  .payment-area-info .credit-card-option {
+    margin-bottom: 10px; }
+  .payment-area-payment .on-delivery {
+    margin-top: 30px; }
+  .payment-area-payment .save-info {
+    margin-bottom: 30px; }
+  .payment-area {
+    padding-bottom: 30px; }
+  .shipping-info-text .right {
+    margin-left: 0; } }
+
+@media (max-width: 420px) {
+  .payment-area .dashboard-nav {
+    margin-bottom: 30px; }
+  .payment-area .card-price {
+    margin-left: 0;
+    margin-bottom: 30px; }
+  .payment-area-payment .payment-methods {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
+  .payment-methods .methods {
+    margin-right: 10px;
+    margin-top: 30px; }
+  .payment-area-info .credit-card-option {
+    margin-bottom: 10px;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+        -ms-flex-align: start;
+            align-items: flex-start; }
+  .payment-area-payment .on-delivery {
+    margin-top: 30px; }
+  .payment-area-payment .save-info {
+    margin-bottom: 30px;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+        -ms-flex-align: start;
+            align-items: flex-start; }
+    .payment-area-payment .save-info input {
+      margin-top: 5px; }
+  .payment-area {
+    padding-bottom: 30px; }
+  .shipping-info-text .right {
+    margin-left: -15px; }
+  .payment-area-payment .bottom a {
+    margin-right: 15px;
+    margin-bottom: 15px; }
+  .payment-area-info .credit-card-option input {
+    margin-bottom: 10px;
+    width: 35px;
+    height: 35px; } }
 
