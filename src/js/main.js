@@ -52,15 +52,17 @@ $(document).ready(function () {
     prevArrow: '.features-wrapper .prev-arrow',
     nextArrow: '.features-wrapper .next-arrow',
     responsive: [{
-        breakpoint: 1024,
+        breakpoint: 1025,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 3,
+          dots: true,
         },
       },
       {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
+          dots: true,
         },
       },
     ],
@@ -83,9 +85,17 @@ $(document).ready(function () {
         },
       },
       {
-        breakpoint: 480,
+        breakpoint: 768,
         settings: {
           slidesToShow: 1,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 481,
+        settings: {
+          slidesToShow: 1,
+          dots: true,
         },
       },
     ],
@@ -93,9 +103,9 @@ $(document).ready(function () {
 
 
   //Number Picker
-  $(".wan-spinner-4").WanSpinner({
-    inputWidth: 100
-  }).css("border-color", "#C0392B");
+  // $(".wan-spinner-4").WanSpinner({
+  //   inputWidth: 100
+  // }).css("border-color", "#C0392B");
 
 
   //Product Details Slider
@@ -114,6 +124,10 @@ $(document).ready(function () {
   });
 
 
+  //Active size
+  $('.main-menu li a').on('click', function () {
+    $(this).addClass('active').siblings().removeClass('active');
+  });
   //Active size
   $('#sizes li').on('click', function () {
     $(this).addClass('active').siblings().removeClass('active');
