@@ -12843,12 +12843,22 @@ footer {
       color: #1A2224;
       font-size: 18px;
       font-weight: 600; }
-  .billing-info-area .bottom a {
-    font-size: 16px;
-    color: #1A2224;
-    font-weight: 500; }
-    .billing-info-area .bottom a i {
-      margin-right: 10px; }
+  .billing-info-area .bottom {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .billing-info-area .bottom a {
+      font-size: 16px;
+      color: #1A2224;
+      font-weight: 500; }
+      .billing-info-area .bottom a svg {
+        margin-right: 2px;
+        margin-top: -2px; }
 
 .form__div input {
   width: 100% !important; }
