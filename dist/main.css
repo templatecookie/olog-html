@@ -12543,7 +12543,10 @@ footer {
   .verify-area-email .verify-input .box-input {
     margin-bottom: 15px; }
   .verify-area-email .verify-input {
-    margin-bottom: 25px; } }
+    margin-bottom: 25px; }
+  .verify-area-email .verify-input .box-input input {
+    width: 60px;
+    height: 60px; } }
 
 @media only screen and (min-width: 420px) and (max-width: 574px) {
   .verify-area {
