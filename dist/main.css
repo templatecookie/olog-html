@@ -9330,6 +9330,9 @@ p {
   -webkit-box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.05);
           box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.05); }
 
+.nice-select {
+  width: 100% !important; }
+
 @media (min-width: 992px) and (max-width: 1200px) {
   .section-title h2 {
     font-size: 38px; } }
@@ -9384,7 +9387,8 @@ footer {
       font-weight: 400;
       line-height: 24px; }
     footer .newsletter-area-button .form {
-      position: relative; }
+      position: relative;
+      margin-right: -15px; }
       footer .newsletter-area-button .form input {
         color: #ffffff;
         padding: 30px 0px 30px 30px;
@@ -9399,10 +9403,16 @@ footer {
         position: absolute;
         top: 10px;
         right: 10px;
-        border: none; }
+        border: none !important;
+        -webkit-transition: 0.3s all linear;
+        transition: 0.3s all linear; }
         footer .newsletter-area-button .form button:focus {
           -webkit-box-shadow: none;
                   box-shadow: none; }
+        footer .newsletter-area-button .form button:hover {
+          background-color: #989BA7 !important;
+          color: #ffffff !important;
+          border: none !important; }
   footer .main-footer {
     padding: 100px 0px;
     border-top: 1px solid #ffffff;
@@ -9420,21 +9430,34 @@ footer {
       margin-top: 24px; }
       footer .main-footer-quicklinks .quicklink li a {
         margin-bottom: 10px;
-        display: inline-block;
+        display: block;
         color: #989BA7;
         font-size: 14px;
-        font-weight: 400; }
+        font-weight: 400;
+        -webkit-transition: 0.3s all linear;
+        transition: 0.3s all linear; }
+        footer .main-footer-quicklinks .quicklink li a:hover {
+          color: #ffffff; }
   footer .copyright {
     padding-top: 28px; }
     footer .copyright-text p {
       color: #989BA7;
       font-size: 14px; }
       footer .copyright-text p a {
-        color: #ffffff; }
+        color: #ffffff;
+        font-weight: 600;
+        -webkit-transition: 0.3s all linear;
+        transition: 0.3s all linear; }
+        footer .copyright-text p a:hover {
+          color: #989BA7; }
     footer .copyright-links a {
       color: #ffffff;
       font-weight: 600;
-      margin-left: 26px; }
+      margin-left: 26px;
+      -webkit-transition: 0.3s all linear;
+      transition: 0.3s all linear; }
+      footer .copyright-links a:hover {
+        color: #989BA7; }
 
 @media (min-width: 768px) and (max-width: 991px) {
   footer .newsletter-area {
@@ -9444,7 +9467,8 @@ footer {
       margin-bottom: 30px; }
     footer .newsletter-area-button .form {
       width: 70%;
-      margin: auto; }
+      margin: auto;
+      margin-right: 0px; }
   footer .newsletter-area-button .form input {
     padding: 25px 0px 25px 25px; }
   footer .newsletter-area-button .form button {
@@ -9469,6 +9493,8 @@ footer {
       footer .newsletter-area-text p {
         font-size: 14px;
         text-align: left; }
+  footer .main-footer-quicklinks {
+    margin-top: 30px; }
   footer footer .newsletter-area-text h4 {
     font-size: 28px;
     line-height: 36px; }
@@ -9484,7 +9510,9 @@ footer {
     margin-bottom: 25px;
     font-size: 14px; }
   footer footer .copyright-text p {
-    margin-bottom: 0; } }
+    margin-bottom: 0; }
+  footer .newsletter-area-button .form {
+    margin-right: 0; } }
 
 @media only screen and (min-width: 420px) and (max-width: 574px) {
   footer {
@@ -9500,6 +9528,8 @@ footer {
   footer .newsletter-area-text h4 {
     font-size: 26px;
     line-height: 32px; }
+  .main-footer-quicklinks {
+    margin-bottom: 30px; }
   footer .main-footer-quicklinks .quicklink {
     margin-top: 15px; }
   footer .newsletter-area-button .form input {
@@ -9521,7 +9551,9 @@ footer {
   footer .copyright {
     -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
-            flex-wrap: wrap; } }
+            flex-wrap: wrap; }
+  footer .newsletter-area-button .form {
+    margin-right: 0; } }
 
 @media (max-width: 420px) {
   footer {
@@ -9562,7 +9594,9 @@ footer {
   footer .copyright {
     -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
-            flex-wrap: wrap; } }
+            flex-wrap: wrap; }
+  footer .newsletter-area-button .form {
+    margin-right: 0; } }
 
 .header-top {
   background-color: #FCFCFC;
@@ -10079,7 +10113,7 @@ footer {
   background-color: #FAFAFA; }
   .breadcrumb-area .breadcrumb {
     padding-left: 0;
-    margin-bottom: 10px;
+    margin-bottom: -6px;
     background-color: transparent; }
     .breadcrumb-area .breadcrumb .active {
       color: #335AFF; }
@@ -10100,16 +10134,22 @@ footer {
     padding: 25px 0px; }
     .breadcrumb-area .breadcrumb {
       margin-bottom: 0;
-      padding-right: 0; }
+      padding-right: 0;
+      padding-bottom: 0; }
       .breadcrumb-area .breadcrumb-item {
-        margin-bottom: 10px; } }
+        margin-bottom: 10px; }
+  .dashboard-nav {
+    margin-bottom: 30px !important; } }
 
 @media (max-width: 420px) {
+  .dashboard-nav {
+    margin-bottom: 30px !important; }
   .breadcrumb-area {
     padding: 25px 0px; }
     .breadcrumb-area .breadcrumb {
       margin-bottom: 0;
-      padding-right: 0; }
+      padding-right: 0;
+      padding-bottom: 0; }
       .breadcrumb-area .breadcrumb-item {
         margin-bottom: 10px;
         padding-left: 0;
@@ -10549,7 +10589,7 @@ footer {
   width: 450px;
   height: 48px;
   font-size: 14px;
-  border: 1px solid rgba(152, 155, 167, 0.5);
+  border: 1px solid rgba(152, 155, 167, 0.5) !important;
   border-radius: 4px;
   outline: none;
   padding: 1rem;
@@ -12353,7 +12393,16 @@ footer {
           border: 1px solid #EFEFEF;
           color: #989BA7;
           padding: 12px 18px;
-          border-radius: 3px; }
+          border-radius: 3px;
+          width: 120px;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+          -webkit-align-items: center;
+              -ms-flex-align: center;
+                  align-items: center; }
           .account-sign-in .social-signing-link a svg {
             margin-right: 5px; }
   .account-sign-up {
@@ -12411,7 +12460,11 @@ footer {
     width: 100%;
     margin-bottom: 20px;
     text-align: center;
-    margin-left: 0; }
+    margin-left: 0;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
   .account-sign-in {
     margin-right: 0; }
   .account-sign-up {
@@ -12440,7 +12493,11 @@ footer {
     width: 100%;
     margin-bottom: 20px;
     text-align: center;
-    margin-left: 0; } }
+    margin-left: 0;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; } }
 
 @media only screen and (min-width: 420px) and (max-width: 574px) {
   .account-sign {
@@ -12452,22 +12509,32 @@ footer {
     margin-bottom: 40px;
     padding: 30px 15px; }
   .account-sign-up {
-    margin-left: 0; }
+    margin-left: 0;
+    padding: 30px 15px; }
   .account-sign-in .social-signing-link a {
     width: 100%;
     margin-bottom: 20px;
     text-align: center;
-    margin-left: 0; } }
+    margin-left: 0;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; } }
 
 @media (max-width: 420px) {
   .account-sign {
     padding: 10px;
-    padding-bottom: 30px;
+    padding-bottom: 55px;
     padding-top: 30px; }
+  .account-sign-up h5,
+  .account-sign-in h5 {
+    margin-bottom: 20px; }
   .account-sign-in {
     margin-right: 0;
     margin-bottom: 40px;
-    padding: 20px 15px; }
+    padding: 24px 15px; }
+    .account-sign-in .form__div {
+      margin-bottom: 16px !important; }
   .account-sign-in form .password-info {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -12476,17 +12543,26 @@ footer {
             flex-direction: column;
     -webkit-align-content: flex-start;
         -ms-flex-line-pack: start;
-            align-content: flex-start; }
+            align-content: flex-start;
+    margin-bottom: 15px; }
   .account-sign-in form .password-info-left {
     margin-bottom: 6px; }
   .account-sign-up {
     margin-left: 0;
-    padding: 20px 15px; }
+    padding: 24px 15px; }
+    .account-sign-up .form__div {
+      margin-bottom: 16px !important; }
   .account-sign-in .social-signing-link a {
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     text-align: center;
-    margin-left: 0; } }
+    margin-left: 0;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  .account-sign-in .social-signing {
+    margin-top: 20px; } }
 
 .forget-password {
   padding: 100px 0px;
@@ -12498,9 +12574,12 @@ footer {
       margin-bottom: 30px; }
     .forget-password .account-sign-in .social-signing {
       margin-bottom: 30px; }
-    .forget-password .account-sign-in .ask-signup a {
-      color: #1A2224;
-      font-size: 16px; }
+    .forget-password .account-sign-in .ask-signup {
+      padding-top: 18px;
+      border-top: 1px solid #EFEFEF; }
+      .forget-password .account-sign-in .ask-signup a {
+        color: #1A2224;
+        font-size: 16px; }
   .forget-password .password-info-show {
     margin-top: 12px;
     margin-bottom: 32px;
@@ -12533,9 +12612,13 @@ footer {
 
 @media (max-width: 420px) {
   .forget-password {
-    padding: 30px 0px; }
+    padding: 30px 0px;
+    padding-bottom: 55px; }
     .forget-password .modi-sm {
-      font-size: 30px; } }
+      font-size: 30px; }
+  .copyright-text,
+  .copyright-links {
+    margin: auto; } }
 
 .verify-area {
   padding: 100px 0px;
@@ -12588,7 +12671,10 @@ footer {
   .verify-area-email .verify-input .box-input {
     margin-bottom: 15px; }
   .verify-area-email .verify-input {
-    margin-bottom: 25px; } }
+    margin-bottom: 25px; }
+  .verify-area-email .verify-input .box-input input {
+    width: 60px;
+    height: 60px; } }
 
 @media only screen and (min-width: 420px) and (max-width: 574px) {
   .verify-area {
@@ -12601,7 +12687,8 @@ footer {
 
 @media (max-width: 420px) {
   .verify-area {
-    padding: 30px 0px; }
+    padding: 30px 0px;
+    padding-bottom: 55px; }
   .verify-area-email {
     padding: 20px; }
   .verify-area-email .verify-input {
@@ -12866,10 +12953,10 @@ footer {
       color: #1A2224;
       font-size: 24px;
       font-weight: 600;
-      margin-bottom: 16px;
+      margin-bottom: 30px;
       text-align: center; }
     .billing-info-area .payment-method-area .payment-method {
-      margin-bottom: 16px; }
+      margin-bottom: 26px; }
       .billing-info-area .payment-method-area .payment-method .method {
         margin-right: 12px; }
         .billing-info-area .payment-method-area .payment-method .method a {
@@ -12885,12 +12972,22 @@ footer {
       color: #1A2224;
       font-size: 18px;
       font-weight: 600; }
-  .billing-info-area .bottom a {
-    font-size: 16px;
-    color: #1A2224;
-    font-weight: 500; }
-    .billing-info-area .bottom a i {
-      margin-right: 10px; }
+  .billing-info-area .bottom {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .billing-info-area .bottom a {
+      font-size: 16px;
+      color: #1A2224;
+      font-weight: 500; }
+      .billing-info-area .bottom a svg {
+        margin-right: 2px;
+        margin-top: -2px; }
 
 .form__div input {
   width: 100% !important; }
@@ -12959,7 +13056,9 @@ footer {
     margin-bottom: 20px;
     font-size: 20px; }
   .billing-info-area .bottom a {
-    margin-bottom: 15px; } }
+    margin-bottom: 15px; }
+  .billing-info-area .payment-method-area .payment-method {
+    margin-bottom: 0; } }
 
 .shipping-area {
   padding-top: 50px;

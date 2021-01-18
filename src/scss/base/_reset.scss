@@ -167,6 +167,10 @@ p {
 	box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.05);
 }
 
+.nice-select{
+	width: 100% !important;
+}
+
 // large devices 992px - 1169px
 @media (min-width: 992px) and (max-width: 1200px) {
 	.section-title {

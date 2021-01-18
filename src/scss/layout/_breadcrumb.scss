@@ -3,7 +3,7 @@
     background-color: #FAFAFA;
     .breadcrumb{
         padding-left: 0;
-        margin-bottom: 10px;
+        margin-bottom: -6px;
         background-color: transparent;
         .active{
             color: #335AFF;
@@ -45,21 +45,29 @@
         .breadcrumb{
             margin-bottom: 0;
             padding-right: 0;
+            padding-bottom: 0;
             &-item{
                 margin-bottom: 10px;
             }
         }
+    }
+    .dashboard-nav{
+        margin-bottom: 30px !important;
     }
         
 }
 
 // extra Small devices 420px
 @media (max-width: 420px) {
+    .dashboard-nav{
+        margin-bottom: 30px !important;
+    }
     .breadcrumb-area {
         padding: 25px 0px;
         .breadcrumb{
             margin-bottom: 0;
             padding-right: 0;
+            padding-bottom: 0;
             &-item{
                 margin-bottom: 10px;
                 padding-left: 0;
