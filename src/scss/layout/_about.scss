@@ -70,7 +70,13 @@
 }
 // Medium devices 768px - 991px
 @media (min-width: 768px) and (max-width: 991px) {
-    .about-area-content{
+    .about-area{
+        &-content{
+                &-img{
+                    img{
+                        width: 100%;
+                    }
+                }
         margin-top: 00px;
         &-text{
             margin-top: 40px;
@@ -97,10 +103,18 @@
             }
     }  
 }
+}
 // Small devices 575px - 767px
 @media (min-width: 575px) and (max-width: 767px) {
     .about-area{
         padding-bottom: 70px;
+        &-content{
+            &-img{
+                img{
+                    width: 100%;
+                }
+            }
+        }
             
     }
     .about-area-content{
@@ -135,6 +149,13 @@
 @media only screen and (min-width: 421px) and (max-width: 574px) {
     .about-area{
         padding-bottom: 70px;
+        &-content{
+            &-img{
+                img{
+                    width: 100%;
+                }
+            }
+        }
             
     }
     .about-area-content{
@@ -168,6 +189,13 @@
 @media (max-width: 420px) {
     .about-area{
         padding-bottom: 50px;
+        &-content{
+            &-img{
+                img{
+                    width: 100%;
+                }
+            }
+        }
             
     }
     .about-area-content{

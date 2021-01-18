@@ -8,6 +8,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
+            flex-wrap: wrap;
         }
 
         &-info {
@@ -138,7 +139,7 @@
             input{
                 width: 100%;
                 border: 0;
-                height: 60px;
+                height: 50px;
                 border: 1px solid $lightBlack;
                 border-radius: 50px;
                 padding: 0 22px;
@@ -207,7 +208,7 @@
               }
               
               .sidenav li a:hover {
-                color: #f1f1f1;
+                color: $black;
               }
               
               .sidenav .closebtn {
@@ -327,10 +328,14 @@
 // Small devices 575px - 767px
 @media (min-width: 575px) and (max-width: 767px) {
     .header{
-        background-color: #FCFCFC;
-        box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.05);
         &-top {
-            display: none;
+            &-wrapper {
+                justify-content: center;
+            }
+            &-info {
+                padding-bottom: 5px;
+            }
+    
         }
         &-bottom{
             padding: 15px 0;
@@ -364,10 +369,14 @@
 // Small devices 420px - 574px
 @media only screen and (min-width: 420px) and (max-width: 574px) {
     .header{
-        background-color: #FCFCFC;
-        box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.05);
         &-top {
-            display: none;
+            &-wrapper {
+                justify-content: center;
+            }
+            &-info {
+                padding-bottom: 5px;
+            }
+    
         }
         &-bottom{
             padding: 15px 0;
@@ -400,10 +409,92 @@
 // extra Small devices 420px
 @media (max-width: 420px) {
     .header{
-        background-color: #FCFCFC;
-        box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.05);
         &-top {
-            display: none;
+            background-color: #FCFCFC;
+            &-wrapper {
+                justify-content: center;
+            }
+    
+            &-info {
+                display: flex;
+                align-items: center;
+    
+                .email {
+                    padding: 0;
+                    padding-right: 5px;
+                    .icon{
+                        svg{
+                            padding: 1px;
+                        }
+                    }
+    
+                    .text {
+                        margin-left: 5px;
+    
+                        span {
+                            font-size: 12px;
+                        }
+                    }
+                }
+    
+                .cta {
+                    padding: 0;
+                    .icon{
+                        svg{
+                            padding: 1px;
+                        }
+                    }
+                    .text {
+                        margin-left: 5px;
+    
+                        span {
+                            font-size: 12px;
+                        }
+                    }
+    
+                    &::before {
+                        display: none;
+                    }
+                }
+            }
+    
+            &-switcher {
+                display: flex;
+                align-items: center;
+    
+                .language {
+                    padding-right: 20px;
+                }
+    
+                .currency {
+                    position: relative;
+                    padding-left: 20px;
+    
+                    &::before {
+                        width: 1px;
+                        background-color: rgba(26, 34, 36, 0.12);
+                        height: 19px;
+                        content: "";
+                        position: absolute;
+                        top: 50%;
+                        left: 0;
+                        transform: translateY(-50%);
+                    }
+                }
+    
+                .language,
+                .currency {
+                    .nice-select {
+                        font-size: 12px;
+                        &::after {
+                            width: 6px;
+                            height: 6px;
+    
+                        }
+                    }
+                }
+    
+            }
         }
         &-bottom{
             padding: 15px 0;
@@ -418,6 +509,7 @@
                     margin-left: 30px;
                 }
                 .sidenav{
+                    right: -15px;
                     .search-bar{
                         display: block;
                         min-width: 300px;

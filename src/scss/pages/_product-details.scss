@@ -25,8 +25,8 @@
                     }
 
                     &_outer {
-                        width: 500px !important;
-                        height: 493px !important;
+                        width: 100% !important;
+                        height: 100% !important;
                     }
                 }
             }
@@ -56,7 +56,8 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
-            margin-bottom: 25px;
+            margin-bottom: 28px;
+            margin-top: 12px;
 
             .price {
 
@@ -79,7 +80,7 @@
 
                     li {
                         color: $gold;
-                        padding: 2px;
+                        padding: 3px;
 
                         &:nth-child(6) {
                             padding: 0;

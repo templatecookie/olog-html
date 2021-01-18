@@ -18,8 +18,9 @@
 
         .cart-icon {
             position: absolute;
-            top: 20px;
-            right: 25px;
+            top: 0;
+            right: 0;
+            padding: 6%;
             display: flex;
 
             a {
@@ -63,7 +64,7 @@
             font-weight: 400;
             color: $black;
             display: inline-block;
-            margin-right: 8px;
+            margin-right: 2px;
         }
 
         del {
@@ -159,7 +160,7 @@
 /* extra Small devices 420 */
 @media (max-width: 420px) {
     .populerproduct {
-        padding: 0 0 10px 0;
+        padding: 50px 0 10px 0;
 
         .product-item {
             margin-bottom: 30px;

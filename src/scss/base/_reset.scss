@@ -91,7 +91,9 @@ h6 {
 	font-style: normal;
 	font-weight: 600;
 }
-
+h6{
+	margin-bottom: 10px;
+}
 ul {
 	margin: 0px;
 	padding: 0px;
@@ -158,9 +160,10 @@ p {
 .sticky {
 	position: fixed;
 	top: 0;
-	background-color: #FCFCFC;
+	left: 0;
 	width: 100%;
 	z-index: 99;
+	background-color: #FCFCFC;
 	box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.05);
 }
 
