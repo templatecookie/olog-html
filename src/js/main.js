@@ -117,11 +117,6 @@ $(document).ready(function () {
 
   });
 
-
-  //Active size
-  $('.main-menu li a').on('click', function () {
-    $(this).addClass('active').siblings().removeClass('active');
-  });
   //Active size
   $('#sizes li').on('click', function () {
     $(this).addClass('active').siblings().removeClass('active');
