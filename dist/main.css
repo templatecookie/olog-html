@@ -9423,7 +9423,11 @@ footer {
         display: block;
         color: #989BA7;
         font-size: 14px;
-        font-weight: 400; }
+        font-weight: 400;
+        -webkit-transition: 0.3s all linear;
+        transition: 0.3s all linear; }
+        footer .main-footer-quicklinks .quicklink li a:hover {
+          color: #ffffff; }
   footer .copyright {
     padding-top: 28px; }
     footer .copyright-text p {
@@ -9431,11 +9435,19 @@ footer {
       font-size: 14px; }
       footer .copyright-text p a {
         color: #ffffff;
-        font-weight: 600; }
+        font-weight: 600;
+        -webkit-transition: 0.3s all linear;
+        transition: 0.3s all linear; }
+        footer .copyright-text p a:hover {
+          color: #989BA7; }
     footer .copyright-links a {
       color: #ffffff;
       font-weight: 600;
-      margin-left: 26px; }
+      margin-left: 26px;
+      -webkit-transition: 0.3s all linear;
+      transition: 0.3s all linear; }
+      footer .copyright-links a:hover {
+        color: #989BA7; }
 
 @media (min-width: 768px) and (max-width: 991px) {
   footer .newsletter-area {
