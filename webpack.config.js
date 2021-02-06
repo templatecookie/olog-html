@@ -84,10 +84,10 @@ module.exports = {
             chunkFilename: '[id].css',
         }),
         
-        new PurgecssPlugin({
-            paths: glob.sync(path.join(__dirname, '*.html'),  { nodir: true }),
+        // new PurgecssPlugin({
+        //     paths: glob.sync(path.join(__dirname, '*.html'),  { nodir: true }),
             
-        }),
+        // }),
     ],
 }
 
