@@ -7,7 +7,7 @@ FREE UI & HTML Templates for Designer and Developer. Echotemplate is a place whe
 
 This project is a bootstrap version [Olog eCommerce Responsive HTML Template](https://www.echotemplate.com/templates/olog-ecommerce-responsive-html-template) designed with HTML, CSS, SCSS, Bootstrap, Javascript & Jquery.
 
-Check the [Live Demo here](https://demo.echotemplate.com/blogy-responsive-blog-html-template/).
+Check the [Live Demo here](https://demo.echotemplate.com/olog-ecommerce-responsive-html-template).
 
 ![](dist/images/screenshot.png)
 
