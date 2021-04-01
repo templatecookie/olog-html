@@ -9,7 +9,7 @@ This project is a bootstrap version [Olog eCommerce Responsive HTML Template](ht
 
 Check the [Live Demo here](https://demo.echotemplate.com/blogy-responsive-blog-html-template/).
 
-![](dist/images/screenshot.jpeg)
+![](dist/images/screenshot.png)
 
 ## Technology We used
 - HTML 5
@@ -56,10 +56,8 @@ It contains these folder and files :
 - `themes` : theme
 - `vendors` : bootstrap, fontawesome
 
-
 ## Included Framework and Libraries
 - `fontawesome` - Font Library
-
 
 ## Webpack Dependencies
 - Webpack
