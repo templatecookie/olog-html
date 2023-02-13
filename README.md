@@ -1,7 +1,7 @@
-# [Echotemplate.com](https://echotemplate.com)
-FREE UI & HTML Templates for Designer and Developer. Echotemplate is a place where a team of design & developers create beautiful templates. Visit [Echotemplate.com](https://echotemplate.com) for more updates.
+# [lomeyolabs.com](https://lomeyolabs.com)
+FREE UI & HTML Templates for Designer and Developer. Lomeyo Labs is a place where a team of design & developers create beautiful templates. Visit [lomeyolabs.com](https://lomeyolabs.com) for more updates.
 
-# [Olog eCommerce Responsive HTML Template](https://echotemplate.com)
+# [Olog eCommerce Responsive HTML Template](https://lomeyolabs.com)
 
 > Olog eCommerce Responsive HTML Template based on bootstrap framework v4.5.
 
