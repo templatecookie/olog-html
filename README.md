@@ -1,13 +1,13 @@
 # [lomeyolabs.com](https://lomeyolabs.com)
-FREE UI & HTML Templates for Designer and Developer. Lomeyo Labs is a place where a team of design & developers create beautiful templates. Visit [lomeyolabs.com](https://lomeyolabs.com) for more updates.
+FREE UI & HTML Templates for Designer and Developer. Lomeyo Labs is a place where a team of design & developers create beautiful templates. Visit [templatecookie.com](https://templatecookie.com) for more updates.
 
 # [Olog eCommerce Responsive HTML Template](https://lomeyolabs.com)
 
 > Olog eCommerce Responsive HTML Template based on bootstrap framework v4.5.
 
-This project is a bootstrap version [Olog eCommerce Responsive HTML Template](https://www.echotemplate.com/templates/olog-ecommerce-responsive-html-template) designed with HTML, CSS, SCSS, Bootstrap, Javascript & Jquery.
+This project is a bootstrap version [Olog eCommerce Responsive HTML Template](https://olog-ecommerce-template.netlify.app/) designed with HTML, CSS, SCSS, Bootstrap, Javascript & Jquery.
 
-Check the [Live Demo here](https://demo.echotemplate.com/olog-ecommerce-responsive-html-template).
+Check the [Live Demo here](https://olog-ecommerce-template.netlify.app/).
 
 ![](dist/images/screenshot.png)
 
