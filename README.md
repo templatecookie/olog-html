@@ -1,5 +1,5 @@
-# [templatecookie.com](https://templatecookie.com)
-FREE UI & HTML Templates for Designer and Developer. Lomeyo Labs is a place where a team of designers & developers create beautiful templates. Visit [templatecookie.com](https://templatecookie.com) for more updates.
+# [Templatecookie](https://templatecookie.com)
+Templatecookie.com creates quality templates and php scripts. Templatecookie has many free HTML & Figma templates available for professional use. Templatecookie is famous for its premium PHP Scripts available on [Codeanyon Marketplace](https://codecanyon.net/user/templatecookie). Browse [Templatecookie](https://templatecookie.com) today and discover awesome digital products.
 
 # [Olog eCommerce Responsive HTML Template](https://olog-ecommerce-template.netlify.app/)
 
